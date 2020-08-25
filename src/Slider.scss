@@ -1,0 +1,94 @@
+* {
+    font-family: 'Prompt', sans-serif;
+}
+
+#sliderContainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #0a1e2c;
+    z-index: -1;
+    padding-left: 35px;
+}
+
+.logoBox {
+    width: 200px;
+    height: 70px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+.logoBox img {
+    width: 100%;
+    height: 100%;
+}
+
+.sliderBox {
+    position: relative;
+}
+
+.sliderPhoto {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 970px;
+    height: 100vh;
+}
+
+.sliderPhoto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.textSliderBox {
+    position: relative;
+    width: 400px;
+    height: 100vh;
+}
+
+.textSlider {
+    position: absolute;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.textSlider h1 {
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.textSlider p {
+    color: #dedbdb;
+    margin-bottom: 28px;
+}
+
+.btn {
+    width: 170px;
+    height: 40px;
+    background-color: #ffd15f;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: white!important;
+    // border: 1px solid #ffd15f;
+    font-weight: 500;
+    margin: 0;
+    color: black;
+}
+
+// .btn p {
+//     font-size: 15px;
+//     font-weight: 500;
+//     margin: 0;
+//     color: black;
+// }
+
+
