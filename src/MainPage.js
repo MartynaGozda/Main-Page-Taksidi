@@ -3,7 +3,7 @@ import React from 'react';
 import Slider from "./Slider.js";
 import TestimonialsWrapper from './TestimonialsWrapper'
 import Destination from "./Destination.js"
-// import Program from "./Program.js"
+import Program from "./Program.js"
 // import Explore from "./Explore.js"
 // import Entertainment from "./Entertainment.js"
 // import Newsletter from "./Newsletter.js"
@@ -17,13 +17,13 @@ function MainPage() {
             <Slider />
             <TestimonialsWrapper />
             <Destination />
-            {/* <Program /> 
-            <Explore />
+            <Program />
+            {/* <Explore />
             <Entertainment />
             <Newsletter />
             <Contact />
             <Partners />
-            <Footer />  */}
+            <Footer />  */} 
         </div>
         
     );
