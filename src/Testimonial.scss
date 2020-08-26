@@ -1,0 +1,114 @@
+$fColor: #666;
+$textTestimonial: Poppins, sans-serif;
+$bgTestimonials: #6d656514;
+$fColor: #666;
+$fFamily: Georgia, serif;
+$borderImg: rgb(248, 248, 248);
+$sColor: rgba(0, 0, 0, 0.32);
+
+.testimonialImage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.testimonialName {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  font-family: $textTestimonial;
+  font-weight: normal;
+  font-size: 21px;
+  font-style: italic;
+  color: $fColor;
+}
+
+.testimonialText {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: 90%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 15px;
+  color: $fColor;
+}
+
+#testimonials {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  height: 300px;
+  background-color: #e4f4fb;
+  padding: 140px 85px 30px;
+
+}
+
+.testimonialsTitle {
+  width: 350px;
+  height: 260px;
+
+  h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0;
+  }
+
+  .btn {
+    background-color: transparent;
+    border: 1px solid;
+    width: 230px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .btn:hover {
+    border: 1px transparent;
+    background-color: #0a1e2c;
+    color: white;
+    box-shadow: none;
+
+  }
+}
+.testimonialsWrapper {
+  display: flex;
+  width: 900px;
+  justify-content: space-evenly;
+}
+
+.testimonialsWrapper div {
+  width: 270px;
+  height: 250px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 $sColor;
+  border-radius: 6px;
+  background-color: white;
+  
+}
+
+.testimonialsWrapper div:before {
+  content: "\201C";
+  font-family: $fFamily;
+  color: $fColor;
+  font-size: 100px;
+  position: absolute;
+  left: 10px;
+}
+
+.testimonialsWrapper div img {
+  border: 5px solid $borderImg;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 4px 11px 30px -4px $sColor;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 991px) {
+  .testimonialsWrapper div {
+    margin-top: 20px;
+  }
+}

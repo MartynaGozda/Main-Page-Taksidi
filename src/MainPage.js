@@ -1,9 +1,8 @@
 
 import React from 'react';
 import Slider from "./Slider.js";
-// import Menu from "./Menu.js"
-// import Testimonials from "./Testimonials.js"
-// import Destination from "./Destination.js"
+import TestimonialsWrapper from './TestimonialsWrapper'
+import Destination from "./Destination.js"
 // import Program from "./Program.js"
 // import Explore from "./Explore.js"
 // import Entertainment from "./Entertainment.js"
@@ -16,16 +15,15 @@ function MainPage() {
     return (
         <div>
             <Slider />
-            {/* <Menu /> */}
-            {/* <Testimonials />
+            <TestimonialsWrapper />
             <Destination />
-            <Program />
+            {/* <Program /> 
             <Explore />
             <Entertainment />
             <Newsletter />
             <Contact />
             <Partners />
-            <Footer /> */}
+            <Footer />  */}
         </div>
         
     );

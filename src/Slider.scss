@@ -5,9 +5,10 @@
 #sliderContainer {
     width: 100vw;
     height: 100vh;
-    background-color: #0a1e2c;
-    z-index: -1;
+    background-image: url("./img/cover-taksidi.jpg");
+    z-index: -2;
     padding-left: 35px;
+    background-size: cover;
 }
 
 .logoBox {
@@ -15,6 +16,8 @@
     height: 70px;
     margin-top: 15px;
     position: absolute;
+    z-index: 2;
+    left: 25px;
 }
 
 .logoBox img {
@@ -26,12 +29,21 @@
     position: relative;
 }
 
-.sliderPhoto {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 970px;
+.slideStripeBox {
+    width: 35vw;
     height: 100vh;
+    background-color: transparent;
+    position: relative;
+}
+
+.sliderStripe {
+    position: absolute;
+    left: 50px;
+    top: 0;
+    width: 30vw;
+    height: 100vh;
+    background-color: #0a1e2c;
+    z-index: 0;
 }
 
 .sliderPhoto img {
@@ -51,6 +63,8 @@
     color: white;
     top: 50%;
     transform: translateY(-50%);
+    left: 30px;
+    
 }
 
 .textSlider h1 {
@@ -62,26 +76,27 @@
 .textSlider p {
     color: #dedbdb;
     margin-bottom: 28px;
+    
 }
 
 .btn {
-    width: 170px;
-    height: 40px;
+    width: 180px;
+    height: 50px;
     background-color: #ffd15f;
-    border-radius: 20px;
+    border-radius: 30px;
     border: none;
     cursor: pointer;
     outline: none;
+    font-size: 16px;
+
     
 }
 
 .btn:hover{
-    background-color: transparent;
-    color: white!important;
-    // border: 1px solid #ffd15f;
+    
     font-weight: 500;
     margin: 0;
-    color: black;
+    box-shadow: -2px 0px 51px 12px #000000ad;
 }
 
 // .btn p {

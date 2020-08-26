@@ -6,7 +6,7 @@ function Menu() {
     return (
     <div id="menuContainer">
         <ul class="menuList">
-            <li class="menuItems">Nasze wyjady</li>
+            <li class="menuItems">Nasze wyjazdy</li>
             <li class="menuItems">Okres specjalny</li>
             <li class="menuItems">Promocje</li>
             <li class="menuItems">Dlaczego My?</li>
