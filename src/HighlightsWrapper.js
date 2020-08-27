@@ -5,8 +5,8 @@ import $ from 'jquery';
 
 var highlightsArr = [
     {
-        name : 'Wyjątkowe wybrzeże',
-        image : './img/highlight_cliffs.jpg',
+        name : 'Warsztaty kulinarne',
+        image : './img/warsztaty-kulinarne.jpg',
         text : 'Wysokie kliffy, z których można skakać wprost do błękitnego i ciepłego morza',
         tagParty : false,
         tagActivities : true,
@@ -14,85 +14,86 @@ var highlightsArr = [
 
     },
     {
-        name : 'Hvar',
-        image : './img/highlight_korcula.jpg',
+        name : 'Warsztaty taneczne ',
+        image : './img/warsztaty-taneczne.jpg',
         text : 'Niepowtarzalna wyspa i miasto, które całe wpisane jest na listę dziedzictwa UNESCO',
         tagParty : false,
         tagActivities : false,
         tagSightseeing : true
     },
     {
-        name : 'Korcula',
-        image : './img/highlight_korcula.jpg',
-        text : 'Miejscu urodzenia Marco Polo i najbardziej słoneczna wyspa Chorwacji',
-        tagParty : false,
-        tagActivities : false,
-        tagSightseeing : true
-    },
-    {
-        name : 'Wzgórza Pakelni',
-        image : './img/highlight_korcula.jpg',
-        text : 'Najpiękniejszy zachód słońca w Chorwacji',
-        tagParty : false,
-        tagActivities : true,
-        tagSightseeing : false
-    },
-    {
-        name : 'Palmizana',
-        image : './img/highlight_korcula.jpg',
-        text : 'Przepiękna zatoka, idealna na leniwe śniadanie',
-        tagParty : false,
-        tagActivities : true,
-        tagSightseeing : true
-    },
-    {
-        name : 'Peka',
-        image : './img/highlight_korcula.jpg',
-        text : 'Ośmiornica lub mięso mieczone w specjalnym tradycyjnym naczyniu',
-        tagParty : false,
-        tagActivities : true,
-        tagSightseeing : false
-    },
-    {
-        name : 'Owoce morza',
-        image : './img/highlight_korcula.jpg',
-        text : 'Świeże i pyszn eowoce morza!',
-        tagParty : false,
-        tagActivities : true,
-        tagSightseeing : false
-    },
-    {
-        name : 'Snorkling',
-        image : './img/highlight_korcula.jpg',
-        text : 'Czysta woda, pozwala podziwiać dno i niezliczone gatunki kolorowych ryb',
-        tagParty : false,
-        tagActivities : true,
-        tagSightseeing : false
-    },
-    {
-        name : 'Trogir',
-        image : './img/highlight_trogir.jpg',
-        text : 'Stare miasto wpisane niemal w całości na listę Światowego Dziedzictwa UNESCO',
-        tagParty : false,
-        tagActivities : false,
-        tagSightseeing : true
-    },
-    {
-        name : 'White Party',
-        image : './img/highlight_korcula.jpg',
+        name : 'Warsztaty ski-freestyle',
+        image : './img/ski-freestyle.jpg',
         text : 'Przebierana impreza, gdzie wszyscy ubieramy się na biało!',
         tagParty : true,
         tagActivities : false,
         tagSightseeing : false
     },
     {
-        name : 'Pływanie we flocie',
-        image : './img/highlight_korcula.jpg',
+        name : 'Warsztaty snb-freestyle',
+        image : './img/snowboard-freestyle.jpg',
         text : 'Flota jachtów, wspólne przerwy i noclegi - niezapomniane przeżycie',
         tagParty : false,
         tagActivities : true,
         tagSightseeing : false
     },
+    {
+        name : 'Warsztaty browarnicze ',
+        image : './img/warsztaty-browarnicze.jpg',
+        text : 'Miejscu urodzenia Marco Polo i najbardziej słoneczna wyspa Chorwacji',
+        tagParty : false,
+        tagActivities : false,
+        tagSightseeing : true
+    },
+    {
+        name : 'Warsztaty wizażu ',
+        image : './img/warsztaty-wizazu.jpg',
+        text : 'Najpiękniejszy zachód słońca w Chorwacji',
+        tagParty : false,
+        tagActivities : true,
+        tagSightseeing : false
+    },
+    {
+        name : 'Warsztaty fotograficzne',
+        image : './img/warsztaty-fotograficzne.jpg',
+        text : 'Przepiękna zatoka, idealna na leniwe śniadanie',
+        tagParty : false,
+        tagActivities : true,
+        tagSightseeing : true
+    },
+    {
+        name : 'Warsztaty barmańskie',
+        image : './img/warsztaty-barmanskie.jpg',
+        text : 'Ośmiornica lub mięso mieczone w specjalnym tradycyjnym naczyniu',
+        tagParty : false,
+        tagActivities : true,
+        tagSightseeing : false
+    },
+    {
+        name : 'Warsztaty masażu',
+        image : './img/warsztaty-masazu.jpg',
+        text : 'Świeże i pyszn eowoce morza!',
+        tagParty : false,
+        tagActivities : true,
+        tagSightseeing : false
+    },
+    {
+        name : 'Serwisowanie sprzętu',
+        image : './img/serwisowanie-sprzetu.jpg',
+        text : 'Czysta woda, pozwala podziwiać dno i niezliczone gatunki kolorowych ryb',
+        tagParty : false,
+        tagActivities : true,
+        tagSightseeing : false
+    },
+    {
+        name : 'Szkolenie na tyczkach',
+        image : './img/tyczki.jpg',
+        text : 'Stare miasto wpisane niemal w całości na listę Światowego Dziedzictwa UNESCO',
+        tagParty : false,
+        tagActivities : false,
+        tagSightseeing : true
+    },
+  
 
 ];
 
