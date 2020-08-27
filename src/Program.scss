@@ -7,12 +7,12 @@
     position: relative;
     height: 700px;
     margin: auto;
-    background: url("./img/taksidi-program.jpg");
+    background: url("./img/taksidi-program-1.jpg");
     background-size: cover;
     background-position: center;
 
     .overlayImage {
-        background-color: #40393945;
+        background-color: #020202ad;
         width: 100%;
         height: 100%;
         border-radius: 12px;
@@ -37,11 +37,44 @@
         left: 50%;
         transform: translate(-50%, -60%);
         top: 50%;
+        margin-top: 50px;
 
         .oneprogramBox {
-            width: 250px;
-            height: 300px;
-            border: 1px solid grey;
+            width: 300px;
+            height: 350px;
+            text-align: center;
+            padding: 30px 0;
+
+            i {
+                color: white;
+                font-size: 60px;
+            }
+
+            h4 {
+                color: white;
+                font-weight: 500;
+                font-size: 25px;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+                color: white;
+            }
+
+            button {
+                background-color: transparent;
+                color: white;
+                border: 1px solid white;
+                margin-top: 20px;
+            }
+
+            button:hover, button:active {
+                color: black;
+                background-color: #ffd15f;
+                box-shadow: none;
+                border: none;
+            }
         }
     }
 }
