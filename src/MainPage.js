@@ -5,8 +5,8 @@ import TestimonialsWrapper from './TestimonialsWrapper'
 import Destination from "./Destination.js"
 import Program from "./Program.js"
 import HighlightsWrapper from "./HighlightsWrapper.js"
-// import Newsletter from "./Newsletter.js"
-// import Contact from "./Contact.js"
+import Newsletter from "./Newsletter.js"
+import Contact from "./Contact.js"
 // import Partners from "./Partners.js"
 // import Footer from "./Footer.js"
 
@@ -18,12 +18,12 @@ function MainPage() {
             <Destination />
             <Program />
             <HighlightsWrapper />
-            {/* <Newsletter />
+            <Newsletter />
             <Contact />
-            <Partners />
-            <Footer />    */}
+            {/* <Partners />
+            <Footer /> */}
         </div>
-        
+
     );
 }
 

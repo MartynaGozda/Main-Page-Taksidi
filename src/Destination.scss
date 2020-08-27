@@ -1,6 +1,6 @@
 #destinationContainer {
     height: 800px;
-    width: 100vw;
+    width: 100%;
     background-color: white;
 }
 
@@ -93,11 +93,21 @@
         }
     }
 
-    .btn {
+    button {
         position: absolute;
         bottom: 40px;
         left: 50%;
         transform: translateX(-50%)
 
     }
+
+    
 }
+
+div:nth-child(3) > div > button:hover {
+    border: 1px solid #ffd15f;
+  }
+
+div:nth-child(3) > div > button:hover {
+    border: 1px solid black;
+  }

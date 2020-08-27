@@ -1,10 +1,14 @@
 * {
-    font-family: 'Prompt', sans-serif;
+    font-family: 'Prompt', sans-serif;  
+}
+
+html {
+    overflow-x: hidden;
 }
 
 #sliderContainer {
-    width: 100vw;
-    height: 100vh;
+    // width: 100vw;
+    // height: 100vh;
     background-image: url("./img/cover-taksidi.jpg");
     z-index: -2;
     padding-left: 35px;
@@ -31,7 +35,7 @@
 }
 
 .slideStripeBox {
-    width: 35vw;
+    width: 35%;
     height: 100vh;
     background-color: transparent;
     position: relative;
@@ -41,7 +45,7 @@
     position: absolute;
     left: 50px;
     top: 0;
-    width: 30vw;
+    width: 85%;
     height: 100vh;
     background-color: #0a1e2c;
     z-index: 0;
@@ -97,7 +101,9 @@
     
     font-weight: 500;
     margin: 0;
-    box-shadow: -2px 0px 51px 12px #000000ad;
+    background-color: white;
+    border: 1px solid white;
+    color: black;
 }
 
 // .btn p {

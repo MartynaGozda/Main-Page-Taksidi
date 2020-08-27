@@ -32,7 +32,7 @@ function Destination() {
                         <h3>... i wiele więcej</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                          magna aliqua. </p>
-                         <button class="btn">Sprawdz</button>
+                         <button class="btn">Sprawdź</button>
                     </div>
                 </div>
             </div>
