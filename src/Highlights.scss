@@ -1,0 +1,75 @@
+#highlightsContainer {
+
+}
+
+.highlightsTextBox {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+
+    h2 {
+        margin-bottom: 30px 0;
+        letter-spacing: 0.6px;
+        font-size: 27px;
+    }
+
+    p {
+        margin-top: 0;
+        text-align: center;
+    }
+}
+
+.highlight {
+    cursor: pointer;
+    height: 330px;
+    width: 250px;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    .overlayImage {
+      background-color: #022c4070;
+      width: 100%;
+      height: 100%;
+      border-radius: 12px;
+      position: absolute;
+      z-index: 1;
+  }
+  }
+  
+  .image {
+    height: 100%;
+    width: 250px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    opacity: 1.0;
+    transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    box-shadow: 2px 3px 33px 3px rgba(184, 178, 184, 0.31);
+  }
+  
+  .image:hover {
+    opacity: 0.7;
+    transition: opacity .3s ease-in-out;
+    -moz-transition: opacity .3s ease-in-out;
+    -webkit-transition: opacity .3s ease-in-out;
+  }
+  
+  .highlightTitle {
+    position: absolute;
+    z-index: 999;
+    left: 5%;
+    right: 0;
+    top: 70%;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    word-wrap: normal;
+  }
+  

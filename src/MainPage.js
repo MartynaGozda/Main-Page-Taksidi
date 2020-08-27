@@ -4,8 +4,7 @@ import Slider from "./Slider.js";
 import TestimonialsWrapper from './TestimonialsWrapper'
 import Destination from "./Destination.js"
 import Program from "./Program.js"
-// import Explore from "./Explore.js"
-// import Entertainment from "./Entertainment.js"
+import HighlightsWrapper from "./HighlightsWrapper.js"
 // import Newsletter from "./Newsletter.js"
 // import Contact from "./Contact.js"
 // import Partners from "./Partners.js"
@@ -18,12 +17,11 @@ function MainPage() {
             <TestimonialsWrapper />
             <Destination />
             <Program />
-            {/* <Explore />
-            <Entertainment />
-            <Newsletter />
+            <HighlightsWrapper />
+            {/* <Newsletter />
             <Contact />
             <Partners />
-            <Footer />  */} 
+            <Footer />    */}
         </div>
         
     );
