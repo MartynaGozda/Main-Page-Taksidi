@@ -5,7 +5,7 @@ import './Newsletter.scss';
 function Newsletter() {
     return (
         <div id="newsLetterContainer">
-
+<div class="newsLetterWrapper">
             <div className="newsLetterTitle">
                 <h1>Bądź na bieżąco</h1>
                 <p>Zapisz się do naszego newslettera, nie będziemy wysyłać Ci spamu. Zapisz się do naszego newslettera, nie będziemy wysyłać Ci spamu.</p>
@@ -20,6 +20,7 @@ function Newsletter() {
                 </div>
 
             </div>
+        </div>
         </div>
     );
 }

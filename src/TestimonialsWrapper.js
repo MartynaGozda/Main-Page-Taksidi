@@ -82,25 +82,6 @@ function GenerateTestimonialsArr() {
 }
 
 class TestimonialsWrapper extends Component {
-    //     render () {
-    //         return (
-    //           <div id="testimonials">
-    //           <div className="testimonialsTitle">
-    //           <h1>Wyjazdy dla każdego</h1>
-    //           <p>Grupa Taksidi oferuje najróżniejsze wyjazdy, i na pewno znajdziesz coś dla siebie.</p>
-    //           <button id="button" class="btn">Znajdź wyjazd dla siebie</button>
-    //           </div>
-    //             <div className='testimonialsWrapper' >
-    //                     {GenerateTestimonialsArr().map((el) =>
-    //                         <Testimonial image={el.image} name={el.name} text={el.testimonial_text}/>
-    //                     )}
-
-    //             </div>
-    //             </div>
-    //         )
-
-    //     }
-    // }
 
     constructor(props) {
         super(props);
@@ -110,14 +91,11 @@ class TestimonialsWrapper extends Component {
         }
     }
 
-
-
     scroll(direction) {
         let far = $('.testimonialsWrapper').width() / 1 * direction;
         let pos = $('.testimonialsWrapper').scrollLeft() + far;
         $('.testimonialsWrapper').animate({ scrollLeft: pos }, 1000)
     }
-
 
 
     handleAll = () => {
@@ -133,31 +111,24 @@ class TestimonialsWrapper extends Component {
 
         if (this.state.tag === 'all') {
 
-
             return (
                 <div id="testimonialContainer">
                     <div class="testimonialTextBox testimonialsTitle">
-                   
-               <h1>Wyjazdy dla każdego</h1>
-            <p>Grupa Taksidi oferuje najróżniejsze wyjazdy, i na pewno znajdziesz coś dla siebie.</p>
-              <button id="button" class="btn">Znajdź wyjazd dla siebie</button>
-               </div>
-                    
+                        <h1>Wyjazdy dla każdego</h1>
+                        <p>Grupa Taksidi oferuje najróżniejsze wyjazdy, i na pewno znajdziesz coś dla siebie.</p>
+                        <button id="button" class="btn">Znajdź wyjazd dla siebie</button>
+                    </div>
 
+                    <div className='wrapperTestimonmials'>
 
-                        <div className='wrapperTestimonmials'>
-                            
-                            <div className="prev" onClick={this.scroll.bind(null, -1)}>&#10094;</div>
-                            <div className="testimonialsWrapper">
-                                {GenerateTestimonialsArr().map((el) =>
-                                    <Testimonial image={el.image} name={el.name} text={el.testimonial_text} />
-                                )}
-
-                            </div>
-                            <div className="next" onClick={this.scroll.bind(null, 1)}>&#10095;</div>
-                           
+                        <div className="prev" onClick={this.scroll.bind(null, -1)}>&#10094;</div>
+                        <div className="testimonialsWrapper">
+                            {GenerateTestimonialsArr().map((el) =>
+                                <Testimonial image={el.image} name={el.name} text={el.testimonial_text} />
+                            )}
                         </div>
-
+                        <div className="next" onClick={this.scroll.bind(null, 1)}>&#10095;</div>
+                    </div>
                 </div>
             )
         }

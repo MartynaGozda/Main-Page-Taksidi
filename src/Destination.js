@@ -5,13 +5,14 @@ import './Destination.scss';
 function Destination() {
     return (
         <div id="destinationContainer">
-            <div class="destinationTextBox">
+            <div class="destinationContent">
+            <div class="destinationText">
                 <h2>Obierz swój kierunek</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                 magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat. </p>
             </div>
-            <div class="destination">
+            <div class="destinationWrapper">
                
                 <div class="onedestination">
                     <div class="overlayImage"></div>
@@ -36,6 +37,7 @@ function Destination() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }

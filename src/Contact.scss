@@ -1,20 +1,19 @@
-.contactContainer1 {
+#contactContainer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     height: 500px;
 }
 
-#contactContainer {
-    
+.contactWrapper {
     display: flex;
-    justify-content: space-evenly;
-    width: 100%;
+    justify-content: space-between;
+    width: 1100px;
+    margin: auto;
 
     .contactBox {
         display: flex;
         flex-direction: column;
-        // margin-top: 80px;
         width: 350px;
 
         h1 {
@@ -75,7 +74,7 @@
 
                 ::placeholder {
                     color: lightgrey;
-                  }
+                }
             }
 
             input:focus,

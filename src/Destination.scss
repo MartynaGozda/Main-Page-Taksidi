@@ -1,113 +1,119 @@
 #destinationContainer {
-    height: 800px;
+    height: 700px;
     width: 100%;
     background-color: white;
-}
-
-.destinationTextBox {
+    display: flex;
     align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    margin: auto;
 
-    h2 {
-        margin: 70px 0 30px;
-        letter-spacing: 0.6px;
-        font-size: 27px;
-    }
-
-    p {
-        margin-top: 0;
-        text-align: center;
-    }
-}
-
-.destination {
-    display: flex;
-    justify-content: space-around;
-    width: 1100px;
-    margin: auto;
-    margin-top: 50px;
-}
-
-.destination .onedestination {
-    width: 350px;
-    height: 350px;
-    background: transparent;
-    border-radius: 12px;
-    border: 1px solid lightgrey;
-    box-shadow: 10px 10px 72px 23px rgba(0, 0, 0, 0.2);
-    display: flex;
-    position: relative;
-
-    .overlayImage {
-        background-color: #0000006e;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        border-radius: 12px;
-        
-    }
-
-    h3.countryName {
-        position: absolute;
-        color: white;
-        font-weight: 500;
-        padding: 30px 0 0 37px;
-        margin: 0;
-        font-size: 23px;
-    }
-
-    img {
-        width: 100%;
-        height: 100%;
-        border-radius: 12px;
-    }
-
-    .destinationText {
-        width: 300px;
-        text-align: center;
+    .destinationContent {
+        width: 1100px;
+        flex-direction: column;
+        display: flex;
         margin: auto;
-        margin-top: 60px;
-    }
+        padding-bottom: 30px;
 
-    .destinationNumber {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        position: absolute;
-        background-color: white;
-        right: 0;
-        top: 0;
-        margin: 22px;
+        .destinationText {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            width: 600px;
+            margin: auto;
 
-        span {
-            position: absolute;
-            text-align: center;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            font-weight: 500;
-            font-size: 20px;
+            h2 {
+                letter-spacing: 0.6px;
+                font-size: 27px;
+                margin-top: 0;
+            }
+
+            p {
+                margin-top: 0;
+                text-align: center;
+            }
+        }
+
+        .destinationWrapper {
+            display: flex;
+            justify-content: space-around;
+            width: 1100px;
+            margin: auto;
+            margin-top: 50px;
+
+            .onedestination {
+                width: 350px;
+                height: 350px;
+                background: transparent;
+                border-radius: 12px;
+                border: 1px solid lightgrey;
+                box-shadow: 10px 10px 72px 23px rgba(0, 0, 0, 0.2);
+                display: flex;
+                position: relative;
+
+                .overlayImage {
+                    background-color: #0000006e;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    border-radius: 12px;
+                }
+
+                h3.countryName {
+                    position: absolute;
+                    color: white;
+                    font-weight: 500;
+                    padding: 30px 0 0 37px;
+                    margin: 0;
+                    font-size: 23px;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 12px;
+                }
+
+                .destinationText {
+                    width: 300px;
+                    text-align: center;
+                    margin: auto;
+                    margin-top: 60px;
+                }
+
+                .destinationNumber {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    position: absolute;
+                    background-color: white;
+                    right: 0;
+                    top: 0;
+                    margin: 22px;
+
+                    span {
+                        position: absolute;
+                        text-align: center;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        font-weight: 500;
+                        font-size: 20px;
+                    }
+                }
+
+                button {
+                    position: absolute;
+                    bottom: 40px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+
+            div:nth-child(3) > div > button:hover {
+                border: 1px solid #ffd15f;
+            }
+
+            div:nth-child(3) > div > button:hover {
+                border: 1px solid black;
+            }
         }
     }
-
-    button {
-        position: absolute;
-        bottom: 40px;
-        left: 50%;
-        transform: translateX(-50%)
-
-    }
-
-    
 }
-
-div:nth-child(3) > div > button:hover {
-    border: 1px solid #ffd15f;
-  }
-
-div:nth-child(3) > div > button:hover {
-    border: 1px solid black;
-  }

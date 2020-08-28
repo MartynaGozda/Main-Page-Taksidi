@@ -4,8 +4,9 @@ import './Contact.scss';
 
 function Contact() {
     return (
-        <div class="contactContainer1" >
+        
             <div id="contactContainer">
+                <div class="contactWrapper">
             <div class="contactBox">
                 <h1>Masz pytania?</h1>
                 <div class="contact">
