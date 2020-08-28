@@ -6,6 +6,19 @@ $fFamily: Georgia, serif;
 $borderImg: rgb(248, 248, 248);
 $sColor: rgba(0, 0, 0, 0.32);
 
+.wrapperTestimonmials {
+  position: relative;
+  padding-top: 20px;
+
+  .prev {
+    left: -60px;
+  }
+
+  .next {
+    right: -60px;
+  }
+}
+
 .testimonialImage {
   height: 100px;
   width: 100px;
@@ -43,7 +56,6 @@ $sColor: rgba(0, 0, 0, 0.32);
   height: 300px;
   background-color: #e4f4fb;
   padding: 140px 0px 30px 80px;
-
 }
 
 .testimonialsTitle {
@@ -54,6 +66,7 @@ $sColor: rgba(0, 0, 0, 0.32);
     font-size: 30px;
     font-weight: 500;
     margin-top: 0;
+    text-align: left;
   }
 
   .btn {
@@ -69,16 +82,25 @@ $sColor: rgba(0, 0, 0, 0.32);
     background-color: #0a1e2c;
     color: white;
     box-shadow: none;
-
   }
 }
 .testimonialsWrapper {
-  display: flex;
-  width: 900px;
-  justify-content: space-evenly;
+  display: -webkit-inline-box;
+  
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 600px;
+  height: 450px;
+  align-items: center;
+padding-top: 70px;
 }
 
-.testimonialsWrapper div {
+.testimonialsWrapper::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+.onetestimonial {
   width: 270px;
   height: 250px;
   text-align: center;
@@ -86,10 +108,10 @@ $sColor: rgba(0, 0, 0, 0.32);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 $sColor;
   border-radius: 6px;
   background-color: white;
-  
+  margin: 0 15px;
 }
 
-.testimonialsWrapper div:before {
+.onetestimonial:before {
   content: "\201C";
   font-family: $fFamily;
   color: $fColor;
@@ -98,7 +120,7 @@ $sColor: rgba(0, 0, 0, 0.32);
   left: 10px;
 }
 
-.testimonialsWrapper div img {
+.onetestimonial img {
   border: 5px solid $borderImg;
   position: absolute;
   left: 50%;
@@ -107,8 +129,37 @@ $sColor: rgba(0, 0, 0, 0.32);
   object-fit: cover;
 }
 
+#testimonialContainer {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+  background-color: #e4f4fb;
+  
+
+  .testimonialTextBox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    
+
+    h2 {
+      margin-bottom: 30px 0;
+      letter-spacing: 0.6px;
+      font-size: 27px;
+      text-align: left;
+    }
+
+    p {
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+}
+
 @media only screen and (max-width: 991px) {
-  .testimonialsWrapper div {
+  .onetestimonial {
     margin-top: 20px;
   }
 }
