@@ -1,12 +1,20 @@
+.contactContainer1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
 #contactContainer {
-    height: 400px;
+    
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
 
     .contactBox {
         display: flex;
         flex-direction: column;
-        margin-top: 80px;
+        // margin-top: 80px;
         width: 350px;
 
         h1 {
@@ -20,15 +28,29 @@
             margin: 0;
         }
 
-        .adress {
+        .adress,
+        .openingHours {
             margin-top: 20px;
+        }
+
+        .btn {
+            background-color: transparent;
+            border: 1px solid #0a1e2c;
+            color: #0a1e2c;
+            margin-top: 30px;
+        }
+
+        .btn:hover {
+            border: 1px transparent;
+            background-color: #0a1e2c;
+            color: white;
         }
     }
 
     .contactForm {
         display: flex;
         align-items: center;
-        margin-top: 80px;
+        // margin-top: 80px;
 
         form {
             display: flex;
@@ -52,6 +74,17 @@
             textarea:focus {
                 border: 1px solid #0a1e2c;
                 outline: 1px;
+            }
+
+            button {
+                width: 200px;
+                margin-top: 20px;
+            }
+
+            button:hover {
+                box-shadow: 2px 3px 33px 3px rgba(184, 178, 184, 0.31);
+                background-color: #ffd15f;
+                border: 1px solid transparent;
             }
         }
     }

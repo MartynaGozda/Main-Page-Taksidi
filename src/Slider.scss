@@ -7,8 +7,7 @@ html {
 }
 
 #sliderContainer {
-    // width: 100vw;
-    // height: 100vh;
+    height: 800px;
     background-image: url("./img/cover-taksidi.jpg");
     z-index: -2;
     padding-left: 35px;
@@ -36,7 +35,7 @@ html {
 
 .slideStripeBox {
     width: 35%;
-    height: 100vh;
+    height: 100%;
     background-color: transparent;
     position: relative;
 }
@@ -46,7 +45,7 @@ html {
     left: 50px;
     top: 0;
     width: 85%;
-    height: 100vh;
+    height: 100%;
     background-color: #0a1e2c;
     z-index: 0;
 }
@@ -59,16 +58,16 @@ html {
 
 .textSliderBox {
     position: relative;
-    width: 400px;
-    height: 100vh;
+    height: 100%;
 }
 
 .textSlider {
     position: absolute;
     color: white;
     top: 50%;
-    transform: translateY(-50%);
-    left: 30px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 80%;
     
 }
 

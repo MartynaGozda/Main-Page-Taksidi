@@ -7,7 +7,7 @@ import Program from "./Program.js"
 import HighlightsWrapper from "./HighlightsWrapper.js"
 import Newsletter from "./Newsletter.js"
 import Contact from "./Contact.js"
-// import Partners from "./Partners.js"
+import Partners from "./Partners.js"
 // import Footer from "./Footer.js"
 
 function MainPage() {
@@ -20,8 +20,8 @@ function MainPage() {
             <HighlightsWrapper />
             <Newsletter />
             <Contact />
-            {/* <Partners />
-            <Footer /> */}
+            <Partners />
+            {/* <Footer />  */}
         </div>
 
     );

@@ -4,7 +4,8 @@ import './Contact.scss';
 
 function Contact() {
     return (
-        <div id="contactContainer">
+        <div class="contactContainer1" >
+            <div id="contactContainer">
             <div class="contactBox">
                 <h1>Masz pytania?</h1>
                 <div class="contact">
@@ -15,6 +16,10 @@ function Contact() {
                     <p>ul. Wołodyjowskiego 40</p>
                     <p>02-697 Warszawa</p>
                 </div>
+                <div class="openingHours">
+                    <p>Poniedziałek - piątek 10.00 - 15.00</p>
+                </div>
+                <button class="btn">Sprawdź FAQ</button>
             </div>
             <div class="contactForm">
                 <form>
@@ -22,7 +27,9 @@ function Contact() {
                     <input type="email" placeholder="Twój adres e-mail"></input>
                     <label>Treść wiadomości</label>
                     <textarea placeholder="W czym możemy Ci pomóc?" rows="8" cols="50"></textarea>
+                    <button type="submit" class="btn">Wyślij wiadomość</button>
                 </form>
+            </div>
             </div>
 
 
