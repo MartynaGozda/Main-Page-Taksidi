@@ -1,7 +1,59 @@
 #partnersContainer {
+    width: 100%;
+    height: 250px;
+    background-color: #f2f2f2;
+    padding: 40px 0;
+.partnersWrapper {
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 500px;
-    background-color: #e4f4fb;
+    
+   
+
+    .onePartner {
+        width: 160px;
+
+        .imageLogo {
+            width: 170px;
+            height: 40px;
+        }
+
+        .imageLogo img {
+            height: 100%;
+            object-fit: contain;
+        }
+
+        #sf {
+            height: 45px;
+        }
+
+        .partnersInfo {
+            margin-top: 30px;
+
+            p {
+                min-height: 90px;
+                line-height: 1.3;
+                width: 140px;
+            }
+
+            a {
+                text-decoration: none;
+                font-weight: 600;
+                font-family: poppins;
+                font-size: 15px;
+
+                .arrow {
+                    border: solid black;
+                    border-width: 0 2.3px 2.3px 0;
+                    margin-left: 3px;
+                    -webkit-transform: rotate(-45deg);
+                    margin-bottom: 1px;
+                }
+
+              
+            }
+        }
+    }
+}
 }

@@ -57,6 +57,10 @@
             flex-direction: column;
             height: 100%;
 
+            ::placeholder {
+                color: lightgray;
+            }
+
             label {
                 margin-bottom: 5px;
                 font-size: 15px;
@@ -68,11 +72,15 @@
                 border: 1px solid lightgrey;
                 padding: 8px;
                 font-size: 15px;
+
+                ::placeholder {
+                    color: lightgrey;
+                  }
             }
 
             input:focus,
             textarea:focus {
-                border: 1px solid #0a1e2c;
+                border: 1px solid lightgrey;
                 outline: 1px;
             }
 
