@@ -105,7 +105,6 @@ padding-top: 70px;
   height: 250px;
   text-align: center;
   position: relative;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 $sColor;
   border-radius: 6px;
   background-color: white;
   margin: 0 15px;
@@ -132,7 +131,7 @@ padding-top: 70px;
 #testimonialContainer {
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 400px;
   background-color: #e4f4fb;
   

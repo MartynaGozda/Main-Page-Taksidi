@@ -1,10 +1,58 @@
 #contactContainer {
-    width: 1000px;
-    height: 500px;
+    height: 400px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     .contactBox {
-        width: 200px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        width: 350px;
+
+        h1 {
+            font-size: 30px;
+            font-weight: 500;
+            margin-top: 0;
+            margin-top: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+
+        .adress {
+            margin-top: 20px;
+        }
+    }
+
+    .contactForm {
+        display: flex;
+        align-items: center;
+        margin-top: 80px;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+
+            label {
+                margin-bottom: 5px;
+                font-size: 15px;
+            }
+            input,
+            textarea {
+                margin-bottom: 10px;
+                border-radius: 5px;
+                border: 1px solid lightgrey;
+                padding: 8px;
+                font-size: 15px;
+            }
+
+            input:focus,
+            textarea:focus {
+                border: 1px solid #0a1e2c;
+                outline: 1px;
+            }
+        }
     }
 }
