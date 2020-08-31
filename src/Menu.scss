@@ -1,35 +1,37 @@
 #menuContainer {
     position: absolute;
     background: linear-gradient(180deg, black, transparent);
-    width: 68%;
+    width: 80%;
     right: 0;
-}
 
-ul.menuList {
-    display: inline-flex;
-    color: white;
-}
+    ul.menuList {
+        display: flex;
+        color: white;
+        justify-content: flex-end;
+        align-items: center;
 
-ul.menuList li.menuItems {
-    width: auto;
-    list-style-type: none;
-    margin: 17px;
-    font-size: 14px;
-    cursor: pointer;
-    color: white;
-}
+        li.menuItems {
+            width: auto;
+            list-style-type: none;
+            margin: 15px;
+            font-size: 14px;
+            cursor: pointer;
+            color: white;
+            white-space: nowrap;
+        }
+    }
 
-.arrow {
-    border: solid white;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 3px;
-  }
-  
-  
-  .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    margin-bottom: 3px;
-    margin-left: 6px;
-  }
+    .arrow {
+        border: solid white;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 3px;
+    }
+
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        margin-bottom: 3px;
+        margin-left: 6px;
+    }
+}

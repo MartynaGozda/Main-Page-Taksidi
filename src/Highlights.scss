@@ -1,91 +1,50 @@
-#highlightsContainer {
-  height: 760px;
-  text-align: center;
+.highlight {
+  cursor: pointer;
+  height: 330px;
+  width: 250px;
+  margin: 10px;
+  display: inline-block;
+  position: relative;
 
-  .highlightsTextBox {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-    margin: auto;
-
-    h2 {
-      margin-bottom: 30px 0;
-      letter-spacing: 0.6px;
-      font-size: 27px;
-    }
-
-    p {
-      margin-top: 0;
-      text-align: center;
-    }
+  .overlayImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    position: absolute;
+    z-index: 1;
   }
 
-  .highlight {
-    cursor: pointer;
-    height: 330px;
-    width: 300px;
-    margin: 10px;
-    display: inline-block;
-    position: relative;
-
+  &:first-child,
+  &:nth-child(6),
+  &:nth-child(11) {
     .overlayImage {
-      background-color: #022c4070;
-      width: 100%;
-      height: 100%;
-      border-radius: 12px;
-      position: absolute;
-      z-index: 1;
-    }
-
-    .textBox {
-      position: absolute;
-      z-index: 999;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-
-      .highlightTitle {
-        text-align: center;
-        color: white;
-        font-size: 19.5px;
-        font-weight: 500;
-        white-space: pre-line;
-      }
+      background-color: #c5bf07b3;
     }
   }
 
-  .highlight:first-child,
-  .highlight:nth-child(6),
-  .highlight:nth-child(11) {
+  &:nth-child(2),
+  &:nth-child(7) {
     .overlayImage {
-      background-color: #e6df0091;
+      background-color: #1f022bb8;
     }
   }
 
-  .highlight:nth-child(2),
-  .highlight:nth-child(7) {
+  &:nth-child(3),
+  &:nth-child(8) {
     .overlayImage {
-      background-color: #71029e73;
+      background-color: #0185c37a;
     }
   }
 
-  .highlight:nth-child(3),
-  .highlight:nth-child(8) {
+  &:nth-child(4),
+  &:nth-child(9) {
     .overlayImage {
-      background-color: #0ca6ef70;
+      background-color: #057503a3;
     }
   }
 
-  .highlight:nth-child(4),
-  .highlight:nth-child(9) {
-    .overlayImage {
-      background-color: #11bd0e75;
-    }
-  }
-
-  .highlight:nth-child(5),
-  .highlight:nth-child(10) {
+  &:nth-child(5),
+  &:nth-child(10) {
     .overlayImage {
       background-color: #a50b12b5;
     }
@@ -93,7 +52,7 @@
 
   .image {
     height: 100%;
-    width: 300px;
+    width: 250px;
     font-size: 20px;
     display: inline-block;
     border-radius: 15px;
@@ -104,20 +63,29 @@
     -webkit-transition: opacity 0.5s ease-in-out;
     box-shadow: 2px 3px 33px 3px rgba(184, 178, 184, 0.31);
     object-fit: cover;
+
+    &:hover {
+      opacity: 0.7;
+      transition: opacity 0.3s ease-in-out;
+      -moz-transition: opacity 0.3s ease-in-out;
+      -webkit-transition: opacity 0.3s ease-in-out;
+    }
   }
 
-  .image:hover {
-    opacity: 0.7;
-    transition: opacity 0.3s ease-in-out;
-    -moz-transition: opacity 0.3s ease-in-out;
-    -webkit-transition: opacity 0.3s ease-in-out;
-  }
+  .textBox {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 
-  button {
-    border: 1px solid #ffd15f;
-  }
-
-  button:hover {
-    border: 1px solid black;
+    .highlightTitle {
+      text-align: center;
+      color: white;
+      font-size: 19.5px;
+      font-weight: 500;
+      white-space: pre-line;
+    }
   }
 }
+

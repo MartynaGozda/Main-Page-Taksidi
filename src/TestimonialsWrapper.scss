@@ -58,13 +58,33 @@ $sColor: rgba(0, 0, 0, 0.32);
     position: relative;
     padding-top: 20px;
 
+    .prev, .next {
+      position: absolute;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      cursor: pointer;
+      color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      z-index: 9999;
+    }
+    
+    .next {
+      top: 50%;
+      right: -60px;
+      transform: translateY(-50%);
+    }
+    
     .prev {
+      top: 50%;
       left: -60px;
+      transform: translateY(-50%);
     }
 
-    .next {
-      right: -60px;
-    }
+  
 
     .testimonialsWrapper {
       display: -webkit-inline-box;
@@ -82,3 +102,4 @@ $sColor: rgba(0, 0, 0, 0.32);
     }
   }
 }
+

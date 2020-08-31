@@ -37,7 +37,6 @@ class Highlight extends React.Component {
                     : null
                 }
             </div>
-
         )
     }
 }

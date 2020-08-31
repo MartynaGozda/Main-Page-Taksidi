@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Partners.scss";
+import "./Partner.scss";
 
 
 class Partner extends Component {
