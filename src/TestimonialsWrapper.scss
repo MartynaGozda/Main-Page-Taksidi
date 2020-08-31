@@ -7,11 +7,11 @@ $borderImg: rgb(248, 248, 248);
 $sColor: rgba(0, 0, 0, 0.32);
 
 #testimonialsContainer {
-  text-align: center;
   display: flex;
   justify-content: space-evenly;
-  height: 400px;
+  min-height: 400px;
   background-color: #e4f4fb;
+  height: 300px;
 
   .testimonialsTitle {
     width: 350px;
@@ -57,8 +57,10 @@ $sColor: rgba(0, 0, 0, 0.32);
   .testimonialsContent {
     position: relative;
     padding-top: 20px;
+    max-width: 90vw;
 
-    .prev, .next {
+    .prev,
+    .next {
       position: absolute;
       height: 50px;
       width: 50px;
@@ -71,19 +73,18 @@ $sColor: rgba(0, 0, 0, 0.32);
       background: white;
       z-index: 9999;
     }
-    
+
     .next {
       top: 50%;
       right: -60px;
       transform: translateY(-50%);
     }
-    
+
     .prev {
       top: 50%;
       left: -60px;
       transform: translateY(-50%);
     }
-
 
     .testimonialsWrapper {
       display: -webkit-inline-box;
@@ -102,3 +103,39 @@ $sColor: rgba(0, 0, 0, 0.32);
   }
 }
 
+@media only screen and (max-width: 484px) {
+  #testimonialsContainer {
+    flex-direction: column;
+  }
+
+  #testimonialsContainer .testimonialsContent .testimonialsWrapper {
+    width: 350px;
+  }
+
+  #testimonialsContainer .testimonialsTitle {
+    margin: auto;
+    margin-top: 30px;
+    align-items: center;
+
+    h1,
+    p {
+      text-align: center;
+    }
+  }
+
+  #testimonialsContainer .testimonialsContent {
+    .next {
+      bottom: 100px;
+      right: 100px;
+      top: auto;
+      transform: none;
+    }
+
+    .prev {
+      transform: none;
+      top: auto;
+      bottom: 100px;
+      left: 100px;
+    }
+  }
+}

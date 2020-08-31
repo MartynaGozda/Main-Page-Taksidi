@@ -2,18 +2,21 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 500px;
+    min-height: 500px;
 
     .wrapper {
         display: flex;
         justify-content: space-between;
         width: 1100px;
         margin: auto;
+        max-width: 90vw;
+        flex-wrap: wrap;
 
         .box {
             display: flex;
             flex-direction: column;
-            width: 350px;
+            max-width: 90vw;
+            flex-wrap: wrap;
 
             h1 {
                 font-size: 30px;
@@ -35,7 +38,7 @@
                 background-color: transparent;
                 border: 1px solid #0a1e2c;
                 color: #0a1e2c;
-                margin-top: 30px;
+                margin: 30px 0;
             }
 
             .btn:hover {
@@ -48,7 +51,6 @@
         .form {
             display: flex;
             align-items: center;
-            // margin-top: 80px;
 
             form {
                 display: flex;
@@ -94,5 +96,30 @@
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 484px) {
+    #contactContainer {
+        margin: 30px 0;
+    }
+
+    #contactContainer .wrapper .form form {
+        max-width: 90vw;
+    }
+
+    #contactContainer .wrapper {
+        margin: 0;
+        justify-content: center;
+        .box {
+            text-align: center;
+
+            .btn {
+                margin: 30px auto;
+            }
+        }
+    }
+    #contactContainer .wrapper .form form button {
+        margin: 20px auto 0;
     }
 }
