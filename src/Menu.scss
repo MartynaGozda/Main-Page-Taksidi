@@ -1,7 +1,7 @@
 #menuContainer {
     position: absolute;
     background: linear-gradient(180deg, black, transparent);
-    width: 80%;
+    width: 70%;
     right: 0;
 
     ul.menuList {
@@ -23,7 +23,7 @@
 
     .arrow {
         border: solid white;
-        border-width: 0 2px 2px 0;
+        border-width: 0 3px 3px 0;
         display: inline-block;
         padding: 3px;
     }
@@ -32,6 +32,6 @@
         transform: rotate(45deg);
         -webkit-transform: rotate(45deg);
         margin-bottom: 3px;
-        margin-left: 6px;
+        margin-left: 8px;
     }
 }

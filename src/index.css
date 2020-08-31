@@ -31,7 +31,6 @@ code {
 
 .btn:hover {
   font-weight: 500;
-  margin: 0;
   background-color: white;
   border: 1px solid white;
   color: black;

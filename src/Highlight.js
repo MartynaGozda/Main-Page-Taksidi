@@ -26,7 +26,7 @@ class Highlight extends React.Component {
         return (
             <div className='highlight' onClick={() => this.togglePopup()} ><div class="overlayImage"></div>
                 <img src={require(`${this.props.image}`)} alt={""} className='image' />
-                <div class="textBox"><p className='highlightTitle'>{this.props.name}</p></div>
+                <div class="textBox"><p className='title'>{this.props.name}</p></div>
                 {this.state.showPopup ?
                     <Popup
                         text='Click "Close Button" to hide popup'

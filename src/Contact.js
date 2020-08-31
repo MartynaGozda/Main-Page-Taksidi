@@ -5,8 +5,8 @@ import './Contact.scss';
 function Contact() {
     return (
         <div id="contactContainer">
-            <div class="contactWrapper">
-                <div class="contactBox">
+            <div class="wrapper">
+                <div class="box">
                     <h1>Masz pytania?</h1>
                     <div class="contact">
                         <p>info@taksidi.pl</p>
@@ -21,7 +21,7 @@ function Contact() {
                     </div>
                     <button class="btn">Sprawdź FAQ</button>
                 </div>
-                <div class="contactForm">
+                <div class="form">
                     <form>
                         <label>Twój adres e-mail</label>
                         <input type="email" placeholder="Twój adres e-mail"></input>

@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import "./Testimonial.scss";
 
-
 class Testimonial extends Component {
     render () {
         return (

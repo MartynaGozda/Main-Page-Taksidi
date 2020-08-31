@@ -1,0 +1,122 @@
+#footerContainer {
+    height: 520px;
+    color: white;
+    background-color: #0a1e2c;
+
+    .footerMenu {
+        height: 320px;
+        width: 1100px;
+        margin: auto;
+
+        .top {
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+            padding-top: 30px;
+            align-items: center;
+
+            .imageLogo {
+                width: 120px;
+                img {
+                    width: 100%;
+                }
+            }
+
+            .socialMediaContainer {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 200px;
+
+                p {
+                    color: #848e95;
+                    white-space: nowrap;
+                }
+                .icons {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 100px;
+
+                    i {
+                        color: white;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+
+            .oneFooterBox {
+                h5 {
+                    color: #848e95;
+                    font-size: 13px;
+                }
+
+                p {
+                    color: white;
+                    font-size: 12px;
+                    font-family: sans-serif;
+                    letter-spacing: 0.4px;
+                    margin-bottom: 14px;
+                }
+            }
+        }
+    }
+
+    .footerContact {
+        background-color: #05131d;
+
+        .container {
+            width: 1100px;
+            margin: auto;
+            border-bottom: 1px solid grey;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 85%;
+            height: 180px;
+            padding-top: 20px;
+
+            .oneContactBox {
+                width: 150px;
+
+                h5 {
+                    color: #848e95;
+                    font-size: 13px;
+                }
+
+                p {
+                    color: white;
+                    font-size: 12px;
+                    font-family: sans-serif;
+                    letter-spacing: 0.4px;
+                    margin-top: 5px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .footerBottom {
+            display: flex;
+            justify-content: space-between;
+            width: 1100px;
+            margin: auto;
+
+            .text {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 80%;
+                p {
+                    color: #636c72;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

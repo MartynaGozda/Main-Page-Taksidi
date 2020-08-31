@@ -110,9 +110,9 @@ class HighlightsWrapper extends Component {
     }
 
     scroll(direction) {
-        let far = $('.image-container').width() / 1 * direction;
-        let pos = $('.image-container').scrollLeft() + far;
-        $('.image-container').animate({ scrollLeft: pos }, 1000)
+        let far = $('.imageContainer').width() / 1 * direction;
+        let pos = $('.imageContainer').scrollLeft() + far;
+        $('.imageContainer').animate({ scrollLeft: pos }, 1000)
     }
 
     handleAll = () => {
@@ -128,7 +128,7 @@ class HighlightsWrapper extends Component {
         if (this.state.tag === 'all') {
             return (
                 <div id="highlightsContainer">
-                    <div class="highlightsTextBox">
+                    <div class="textBox">
                         <h2>Doświadczaj więcej</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                         et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -138,7 +138,7 @@ class HighlightsWrapper extends Component {
                         <div className='wrapper'>
                             <div className='blockLeft'></div>
                             <div className="prev" onClick={this.scroll.bind(null, -1)}>&#10094;</div>
-                            <div className="image-container">
+                            <div className="imageContainer">
                                 {highlightsArr.map((el) =>
                                     <Highlight name={el.name} image={el.image} info={el.text} />
                                 )}
@@ -146,7 +146,6 @@ class HighlightsWrapper extends Component {
                             <div className="next" onClick={this.scroll.bind(null, 1)}>&#10095;</div>
                             <div className='blockRight'></div>
                         </div>
-
                     </div>
                     <button class="btn">Sprawdź atrakcje</button>
                 </div>
