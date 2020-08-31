@@ -109,41 +109,32 @@ class HighlightsWrapper extends Component {
         }
     }
 
-
-
     scroll(direction) {
         let far = $('.image-container').width() / 1 * direction;
         let pos = $('.image-container').scrollLeft() + far;
         $('.image-container').animate({ scrollLeft: pos }, 1000)
     }
 
-
-
     handleAll = () => {
         this.setState({ tag: 'all' });
     };
 
-
-    componentDidUpdate(prevProps, prevState, snapshot) {
+    componentDidUpdate() {
         console.log(this.state.tag)
     };
 
     render() {
 
         if (this.state.tag === 'all') {
-
-
             return (
                 <div id="highlightsContainer">
                     <div class="highlightsTextBox">
                         <h2>Doświadczaj więcej</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. </p>
                     </div>
-
                     <div className='main' id="main">
-
                         <div className='wrapper'>
                             <div className='blockLeft'></div>
                             <div className="prev" onClick={this.scroll.bind(null, -1)}>&#10094;</div>
@@ -151,7 +142,6 @@ class HighlightsWrapper extends Component {
                                 {highlightsArr.map((el) =>
                                     <Highlight name={el.name} image={el.image} info={el.text} />
                                 )}
-
                             </div>
                             <div className="next" onClick={this.scroll.bind(null, 1)}>&#10095;</div>
                             <div className='blockRight'></div>

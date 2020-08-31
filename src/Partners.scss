@@ -1,55 +1,41 @@
-#partnersContainer {
-    height: 300px;
-    background-color: #f2f2f2;
-    display: flex;
+.onePartner {
+    width: 160px;
 
-    .partnersWrapper {
-        width: 1100px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: auto;
+    .imageLogo {
+        width: 170px;
+        height: 40px;
+    }
 
-        .onePartner {
-            width: 160px;
+    .imageLogo img {
+        height: 100%;
+        object-fit: contain;
+    }
 
-            .imageLogo {
-                width: 170px;
-                height: 40px;
-            }
+    #sf {
+        height: 45px;
+    }
 
-            .imageLogo img {
-                height: 100%;
-                object-fit: contain;
-            }
+    .partnersInfo {
+        margin-top: 30px;
 
-            #sf {
-                height: 45px;
-            }
+        p {
+            min-height: 90px;
+            line-height: 1.3;
+            width: 140px;
+        }
 
-            .partnersInfo {
-                margin-top: 30px;
+        a {
+            text-decoration: none;
+            font-weight: 600;
+            font-family: poppins;
+            font-size: 15px;
 
-                p {
-                    min-height: 90px;
-                    line-height: 1.3;
-                    width: 140px;
-                }
-
-                a {
-                    text-decoration: none;
-                    font-weight: 600;
-                    font-family: poppins;
-                    font-size: 15px;
-
-                    .arrow {
-                        border: solid black;
-                        border-width: 0 2.3px 2.3px 0;
-                        margin-left: 3px;
-                        transform: rotate(-45deg);
-                        margin-bottom: 1px;
-                    }
-                }
+            .arrow {
+                border: solid black;
+                border-width: 0 2.3px 2.3px 0;
+                margin-left: 3px;
+                transform: rotate(-45deg);
+                margin-bottom: 1px;
             }
         }
     }

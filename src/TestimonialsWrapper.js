@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Testimonial from "./Testimonial.js";
-import "./Testimonial.scss";
+import "./TestimonialsWrapper.scss";
 import './HighlightsWrapper.scss';
 import $ from 'jquery';
 
@@ -103,24 +103,20 @@ class TestimonialsWrapper extends Component {
     };
 
 
-    componentDidUpdate(prevProps, prevState, snapshot) {
+    componentDidUpdate() {
         console.log(this.state.tag)
     };
 
     render() {
-
         if (this.state.tag === 'all') {
-
             return (
-                <div id="testimonialContainer">
-                    <div class="testimonialTextBox testimonialsTitle">
+                <div id="testimonialsContainer">
+                    <div class="testimonialsTitle">
                         <h1>Wyjazdy dla każdego</h1>
                         <p>Grupa Taksidi oferuje najróżniejsze wyjazdy, i na pewno znajdziesz coś dla siebie.</p>
                         <button id="button" class="btn">Znajdź wyjazd dla siebie</button>
                     </div>
-
-                    <div className='wrapperTestimonmials'>
-
+                    <div className='testimonialsContent'>
                         <div className="prev" onClick={this.scroll.bind(null, -1)}>&#10094;</div>
                         <div className="testimonialsWrapper">
                             {GenerateTestimonialsArr().map((el) =>

@@ -1,47 +1,20 @@
 
-import React from 'react';
+import React, { Component } from "react";
 import './Program.scss';
 
-function Program() {
-    return (
-        <div id="programContainer">
-            <div class="programBox">
-                <div class="overlayImage"></div>
-                <h2>Rób to, czego pragniesz</h2>
-                <div class="programBoxes">
-                <div class="oneprogramBox">
-                        <i class="fas fa-glass-cheers"></i>
-                        <h4>Party</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. </p>
-                <button class="btn">Imprezuj</button>
-                    </div>
-                    <div class="oneprogramBox">
-                    <i class="fas fa-globe-europe"></i>
-                        <h4>Explore</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. </p>
-                <button class="btn">Zwiedzaj</button>
-                    </div>
-               
-                    <div class="oneprogramBox">
-                    <i class="fas fa-music"></i>
-                        <h4>Festival</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. </p>
-                <button class="btn">Baw się</button>
-                    </div>
-                    <div class="oneprogramBox">
-                    <i class="fas fa-users"></i>
-                        <h4>Family</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. </p>
-                <button class="btn">Bądź z rodziną</button>
-                    </div>
-                </div>
+class Program extends Component {
+    render() {
+        return (
+
+            <div class="oneProgramBox">
+                <i class={this.props.singleProgram.icon} />
+                <h4>{this.props.singleProgram.program}</h4>
+                <p>{this.props.singleProgram.info}</p>
+                <button class="btn">{this.props.singleProgram.btn}</button>
             </div>
-        </div>
-    );
+        );
+    }
 }
+
 
 export default Program

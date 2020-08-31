@@ -24,24 +24,20 @@ class Highlight extends React.Component {
     render() {
 
         return (
-        
-               
-                <div className='highlight'
-                    onClick={() => this.togglePopup()}
-                ><div class="overlayImage"></div>
-                    <img src={require(`${this.props.image}`)} alt={""} className='image' />
-                    <div class="textBox"><p className='highlightTitle'>{this.props.name}</p></div>
-                    {this.state.showPopup ?
-                        <Popup
-                            text='Click "Close Button" to hide popup'
-                            closePopup={this.togglePopup}
-                            name={this.props.name}
-                            info={this.props.info}
-                        />
-                        : null
-                    }
-                </div>
-        
+            <div className='highlight' onClick={() => this.togglePopup()} ><div class="overlayImage"></div>
+                <img src={require(`${this.props.image}`)} alt={""} className='image' />
+                <div class="textBox"><p className='highlightTitle'>{this.props.name}</p></div>
+                {this.state.showPopup ?
+                    <Popup
+                        text='Click "Close Button" to hide popup'
+                        closePopup={this.togglePopup}
+                        name={this.props.name}
+                        info={this.props.info}
+                    />
+                    : null
+                }
+            </div>
+
         )
     }
 }

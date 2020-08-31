@@ -3,11 +3,11 @@ import React from 'react';
 import Slider from "./Slider.js";
 import TestimonialsWrapper from './TestimonialsWrapper'
 import Destination from "./Destination.js"
-import Program from "./Program.js"
+import ProgramWrapper from "./ProgramWrapper.js"
 import HighlightsWrapper from "./HighlightsWrapper.js"
 import Newsletter from "./Newsletter.js"
 import Contact from "./Contact.js"
-import Partners from "./Partners.js"
+import PartnersWrapper from "./PartnersWrapper.js"
 // import Footer from "./Footer.js"
 
 function MainPage() {
@@ -16,11 +16,11 @@ function MainPage() {
             <Slider />
             <TestimonialsWrapper />
             <Destination />
-            <Program />
+            <ProgramWrapper />
             <HighlightsWrapper />
             <Newsletter />
             <Contact />
-            <Partners />
+            <PartnersWrapper />
             {/* <Footer />  */}
         </div>
 

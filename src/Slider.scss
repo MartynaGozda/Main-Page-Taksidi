@@ -1,12 +1,3 @@
-* {
-    font-family: 'Prompt', sans-serif;  
-    color: #0a1e2c;
-}
-
-html {
-    overflow-x: hidden;
-}
-
 #sliderContainer {
     height: 800px;
     background-image: url("./img/cover-taksidi.jpg");
@@ -14,104 +5,79 @@ html {
     padding-left: 35px;
     background-size: cover;
     background-position: center;
+
+    .slideStripeBox {
+        width: 35%;
+        height: 100%;
+        background-color: transparent;
+        position: relative;
+
+        .sliderStripe {
+            position: absolute;
+            left: 50px;
+            top: 0;
+            width: 85%;
+            height: 100%;
+            background-color: #0a1e2c;
+            z-index: 0;
+
+            .logoBox {
+                width: 200px;
+                height: 70px;
+                margin-top: 15px;
+                position: absolute;
+                z-index: 2;
+                left: 35px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        .textSliderBox {
+            position: relative;
+            height: 100%;
+
+            .textSlider {
+                position: absolute;
+                color: white;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                width: 80%;
+
+                h1 {
+                    font-weight: 400;
+                    margin-bottom: 0;
+                    color: white;
+                }
+
+                p {
+                    color: #dedbdb;
+                    margin-bottom: 28px;
+                }
+
+                .btn {
+                    width: 180px;
+                    height: 50px;
+                    background-color: #ffd15f;
+                    border-radius: 30px;
+                    border: none;
+                    cursor: pointer;
+                    outline: none;
+                    font-size: 16px;
+
+                    &:hover {
+                        font-weight: 500;
+                        margin: 0;
+                        background-color: white;
+                        border: 1px solid white;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
 }
-
-.logoBox {
-    width: 200px;
-    height: 70px;
-    margin-top: 15px;
-    position: absolute;
-    z-index: 2;
-    left: 35px;
-}
-
-.logoBox img {
-    width: 100%;
-    height: 100%;
-}
-
-.sliderBox {
-    position: relative;
-}
-
-.slideStripeBox {
-    width: 35%;
-    height: 100%;
-    background-color: transparent;
-    position: relative;
-}
-
-.sliderStripe {
-    position: absolute;
-    left: 50px;
-    top: 0;
-    width: 85%;
-    height: 100%;
-    background-color: #0a1e2c;
-    z-index: 0;
-}
-
-.sliderPhoto img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.textSliderBox {
-    position: relative;
-    height: 100%;
-}
-
-.textSlider {
-    position: absolute;
-    color: white;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    width: 80%;
-    
-}
-
-.textSlider h1 {
-    font-size: 42px;
-    font-weight: 400;
-    margin-bottom: 0;
-    color: white;
-}
-
-.textSlider p {
-    color: #dedbdb;
-    margin-bottom: 28px;
-    
-}
-
-.btn {
-    width: 180px;
-    height: 50px;
-    background-color: #ffd15f;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-    outline: none;
-    font-size: 16px;
-
-    
-}
-
-.btn:hover{
-    
-    font-weight: 500;
-    margin: 0;
-    background-color: white;
-    border: 1px solid white;
-    color: black;
-}
-
-// .btn p {
-//     font-size: 15px;
-//     font-weight: 500;
-//     margin: 0;
-//     color: black;
-// }
-
-

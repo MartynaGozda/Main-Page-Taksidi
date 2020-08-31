@@ -7,7 +7,6 @@ function Slider() {
     return (
         <div id="sliderContainer">
             <Menu />
-
             <div class="slideStripeBox">
                 <div class="sliderStripe">
                     <div class="logoBox">
@@ -15,16 +14,13 @@ function Slider() {
                     </div>
                     <div class="textSliderBox">
                         <div class="textSlider">
-                            <h1>Szusuj na nartach!</h1>
+                            <h1>Wyjazdy na narty dla każdego!</h1>
                             <p>Nasze wyjazdy tworzymy z myślą o osobach w wieku od 19 do około 39 lat, lubiących jak dużo się dzieje. </p>
                             <button id="button" class="btn">Zobacz wyjazdy</button>
                         </div>
                     </div>
-
                 </div>
-
             </div>
-
         </div>
     );
 }

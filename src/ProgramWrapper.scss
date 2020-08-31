@@ -1,0 +1,42 @@
+#programContainer {
+    width: 100%;
+    height: 730px;
+
+    .programBox {
+        position: relative;
+        height: 700px;
+        margin: auto;
+        background: url("./img/taksidi-program.jpg");
+        background-size: cover;
+        background-position: center;
+
+        .overlayImage {
+            background-color: #020202ad;
+            width: 100%;
+            height: 100%;
+            border-radius: 12px;
+        }
+
+        h2 {
+            position: absolute;
+            top: 37px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-weight: 500;
+            font-size: 35px;
+        }
+
+        .programBoxes {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100vw;
+            position: absolute;
+            margin: auto;
+            left: 50%;
+            transform: translate(-50%, -60%);
+            top: 50%;
+            margin-top: 50px;
+        }
+    }
+}

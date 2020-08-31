@@ -1,80 +1,38 @@
-#programContainer {
-    width: 100%;
-    height: 730px;
-}
+.oneProgramBox {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    padding: 30px 0;
 
-.programBox {
-    position: relative;
-    height: 700px;
-    margin: auto;
-    background: url("./img/taksidi-program.jpg");
-    background-size: cover;
-    background-position: center;
-
-    .overlayImage {
-        background-color: #020202ad;
-        width: 100%;
-        height: 100%;
-        border-radius: 12px;
+    i {
+        color: white;
+        font-size: 50px;
     }
 
-    h2 {
-        position: absolute;
-        top: 37px;
-        left: 50%;
-        transform: translateX(-50%);
+    h4 {
         color: white;
         font-weight: 500;
-        font-size: 35px;
+        font-size: 25px;
+        text-align: center;
     }
 
-    .programBoxes {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100vw;
-        position: absolute;
-        margin: auto;
-        left: 50%;
-        transform: translate(-50%, -60%);
-        top: 50%;
-        margin-top: 50px;
+    p {
+        text-align: center;
+        color: white;
+    }
 
-        .oneprogramBox {
-            width: 300px;
-            height: 350px;
-            text-align: center;
-            padding: 30px 0;
+    button {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        margin-top: 20px;
+    }
 
-            i {
-                color: white;
-                font-size: 50px;
-            }
-
-            h4 {
-                color: white;
-                font-weight: 500;
-                font-size: 25px;
-                text-align: center;
-            }
-
-            p {
-                text-align: center;
-                color: white;
-            }
-
-            button {
-                background-color: transparent;
-                color: white;
-                border: 1px solid white;
-                margin-top: 20px;
-            }
-
-            button:hover, button:active {
-                color: black;
-                background-color: #ffd15f;
-                box-shadow: none;
-                border: none;
-            }
-        }
+    button:hover,
+    button:active {
+        color: black;
+        background-color: #ffd15f;
+        box-shadow: none;
+        border: none;
     }
 }
