@@ -32,6 +32,7 @@
             justify-content: space-evenly;
             width: 100vw;
             position: absolute;
+            max-width: 90vw;
             margin: auto;
             left: 50%;
             transform: translate(-50%, -55%);
@@ -45,7 +46,7 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     #programContainer .programBox h2 {
         font-size: 30px;
         text-align: center;
@@ -54,7 +55,6 @@
     #programContainer .programBox .programBoxes {
         margin-top: 70px;
         justify-content: flex-start;
-        height: 450px;
     }
 
     .oneProgramBox {
