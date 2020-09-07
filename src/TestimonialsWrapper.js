@@ -10,52 +10,52 @@ var TestimonialsArr = [
         index: 1,
         image: "./img/girl1.jpg",
         name: 'Ania',
-        testimonial_text: 'Najlepsze wyjazdy, cudowni ludzie, niepowtarzalne wspomnienia!'
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
     },
 
     {
         index: 2,
         image: './img/man1.jpg',
         name: 'Jacek',
-        testimonial_text: 'Wszystko ok!'
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.'
     },
 
     {
         index: 3,
         image: './img/man2.jpg',
         name: 'Robert',
-        testimonial_text: 'Autokar smierdzial i dlatego 3!'
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
     },
     {
         index: 4,
         image: './img/man2.jpg',
-        name: 'Marian',
-        testimonial_text: 'Zajebongo!'
+        name: 'Tomasz',
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
     },
     {
         index: 5,
         image: './img/man1.jpg',
-        name: 'Januszo',
-        testimonial_text: 'Najgorsze biuro EVER!'
+        name: 'Paweł',
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
     },
 
     {
         index: 6,
         image: './img/man2.jpg',
         name: 'Robert',
-        testimonial_text: 'Autokar smierdzial i dlatego 3!'
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
     },
     {
         index: 7,
         image: './img/man2.jpg',
-        name: 'Marian',
-        testimonial_text: 'Zajebongo!'
+        name: 'Piotr',
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
     },
     {
         index: 8,
         image: './img/man1.jpg',
-        name: 'Januszo',
-        testimonial_text: 'Najgorsze biuro EVER!'
+        name: 'Krzysztof',
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
     }
 ];
 

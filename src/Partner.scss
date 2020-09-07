@@ -43,6 +43,12 @@
 }
 
 
-@media only screen and (max-width: 484px) {
- 
+@media only screen and (max-width: 767px) {
+    #partnersContainer .partnersWrapper {
+        overflow-x: auto;
+    }
+
+    .onePartner {
+        padding: 30px;
+}
 }

@@ -85,9 +85,10 @@ function Footer() {
                     <div class="text">
                         <p>Regulamin strony</p>
                         <p>Polityka Prywatnosci</p>
-                        <p>© 2020 Copyright Taksidi. Wykonanie: Kerris Group</p>
+                        <p class="copyRight">© 2020 Copyright Taksidi. Wykonanie: Kerris Group</p>
                     </div>
                     <div class="logo"><img src={require("./img/fundusze.jpg")} alt="" /></div>
+                    <p class="copyRight2">© 2020 Copyright Taksidi. Wykonanie: Kerris Group</p>
                 </div>
             </div>
         </div>

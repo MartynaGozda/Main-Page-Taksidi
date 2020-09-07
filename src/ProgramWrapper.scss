@@ -34,9 +34,30 @@
             position: absolute;
             margin: auto;
             left: 50%;
-            transform: translate(-50%, -60%);
+            transform: translate(-50%, -55%);
             top: 50%;
             margin-top: 50px;
+            overflow-x: auto;
+            overflow-y: hidden;
+            height: 600px;
+            align-items: center;
         }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #programContainer .programBox h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #programContainer .programBox .programBoxes {
+        margin-top: 70px;
+        justify-content: flex-start;
+        height: 450px;
+    }
+
+    .oneProgramBox {
+        margin: 0 30px;
     }
 }

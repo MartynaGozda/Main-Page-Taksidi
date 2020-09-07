@@ -81,7 +81,7 @@
     }
 }
 
-@media only screen and(max-width: 484px) {
+@media only screen and(max-width: 767px) {
 
     #sliderContainer {
         padding-left: 0;
@@ -89,6 +89,7 @@
     #sliderContainer .stripeBox .stripe {
         left: 0;
         width: 100%;
+        background: #00000094;
     }
 
     #sliderContainer .stripeBox {
@@ -103,6 +104,6 @@
     }
 
     #sliderContainer .stripeBox .textBox .text {
-       
+       text-align: center;
     }
 }
