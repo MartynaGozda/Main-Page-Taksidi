@@ -4,13 +4,13 @@
     width: 70%;
     right: 0;
 
-    ul.menuList {
+    ul.nav-items {
         display: flex;
         color: white;
         justify-content: flex-end;
         align-items: center;
 
-        li.menuItems {
+        li.nav-item {
             width: auto;
             list-style-type: none;
             margin: 15px;
@@ -43,5 +43,9 @@
         height: 50px;
         z-index: 1;
         
+    }
+
+    #menuContainer ul.nav-items {
+        display: none;
     }
 }
