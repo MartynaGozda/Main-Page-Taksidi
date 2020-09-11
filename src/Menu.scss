@@ -36,12 +36,15 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1100px) {
     #menuContainer {
         position: absolute;
         width: 100%;
         height: 50px;
-        z-index: 1;
+        background-color: #0e4972;
+        border: 1px solid transparent;
+
+      
         
     }
 
