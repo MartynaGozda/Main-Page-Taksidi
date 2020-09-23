@@ -5,7 +5,6 @@ import './Program.scss';
 class Program extends Component {
     render() {
         return (
-
             <div class="oneProgramBox">
                 <i class={this.props.singleProgram.icon} />
                 <h4>{this.props.singleProgram.program}</h4>
@@ -15,6 +14,5 @@ class Program extends Component {
         );
     }
 }
-
 
 export default Program

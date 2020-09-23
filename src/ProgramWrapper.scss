@@ -18,9 +18,11 @@
         }
 
         h2 {
+            width: 100%;
             position: absolute;
             top: 37px;
             left: 50%;
+            text-align: center;
             transform: translateX(-50%);
             color: white;
             font-weight: 500;
@@ -37,27 +39,11 @@
             left: 50%;
             transform: translate(-50%, -55%);
             top: 50%;
-            margin-top: 50px;
+            margin-top: 100px;
             overflow-x: auto;
             overflow-y: hidden;
             height: 600px;
             align-items: center;
-        }
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    #programContainer .programBox {
-        h2 {
-            font-size: 30px;
-            text-align: center;
-        }
-        .programBoxes {
-            margin-top: 70px;
-            justify-content: flex-start;
-        }
-        .oneProgramBox {
-            margin: 0 30px;
         }
     }
 }

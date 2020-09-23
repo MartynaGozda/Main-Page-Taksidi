@@ -2,6 +2,7 @@
 import React from 'react';
 import './ProgramWrapper.scss';
 import Program from "./Program.js";
+import Carousel from "./Carousel.js"
 
 var ProgramArr = [
     {
@@ -48,12 +49,10 @@ function ProgramWrapper() {
                 <div class="overlayImage"></div>
                 <h2>Rób to, czego pragniesz</h2>
                 <div class="programBoxes">
-                    <Program singleProgram={ProgramArr[0]} />
-                    <Program singleProgram={ProgramArr[1]} />
-                    <Program singleProgram={ProgramArr[2]} />
-                    <Program singleProgram={ProgramArr[3]} />
+                <Carousel />
                 </div>
             </div>
+            
         </div>
     );
 }
