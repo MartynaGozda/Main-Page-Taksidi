@@ -17,18 +17,28 @@
             align-items: center;
             display: flex;
             flex-direction: column;
-            width: 600px;
             max-width: 90vw;
             margin: auto;
+            
+
             h2 {
                 letter-spacing: 0.6px;
                 font-size: 27px;
-                margin-top: 0;
+                margin: 0;
             }
 
             p {
-                margin-top: 0;
                 text-align: center;
+                margin: 30px auto;
+                padding: 0 10px;
+            }
+
+            .mainText {
+                margin-top: 40px;
+                text-align: center;
+                margin-bottom: 0;
+                width: 600px;
+                max-width: 90vw;
             }
         }
 
@@ -76,8 +86,7 @@
                 .text {
                     width: 300px;
                     text-align: center;
-                    margin: auto;
-                    margin-top: 60px;
+                    margin-bottom: 40px;
                 }
 
                 .number {
@@ -107,6 +116,13 @@
                     left: 50%;
                     transform: translateX(-50%);
                 }
+
+                #btnMore {
+                    position: relative;
+                    bottom: 0;
+                    left: 0;
+                    transform: none;
+                }
             }
 
             div:nth-child(3) > div > button:hover {
@@ -126,30 +142,33 @@
         height: 300px;
 
         .text {
-            margin-top: 50px;
-        }
-    }
+            h3 {
+                color: #0a1e2c;
+                margin-bottom: 0;
+            }
 
-    #destinationContainer .content .text p {
-        font-size: 13px;
+            p {
+                font-size: 13px;
+            }
+        }
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 996px) {
     #destinationContainer {
         justify-content: center;
-    }
 
-    #destinationContainer .content .wrapper {
-        flex-wrap: wrap;
-        max-width: 90vw;
-    }
+        .content {
+            margin: 50px 0;
 
-    #destinationContainer .content .wrapper .oneDestination {
-        margin-bottom: 20px;
-    }
+            .wrapper {
+                flex-wrap: wrap;
+                max-width: 90vw;
 
-    #destinationContainer .content {
-        margin: 50px 0;
+                .oneDestination {
+                    margin-bottom: 20px;
+                }
+            }
+        }
     }
 }

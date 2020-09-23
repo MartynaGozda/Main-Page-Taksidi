@@ -82,29 +82,27 @@
 }
 
 @media only screen and(max-width: 1200px) {
-
     #sliderContainer {
         padding-left: 0;
-    }
-    #sliderContainer .stripeBox .stripe {
-        left: 0;
-        width: 100%;
-        background: #00000094;
-    }
 
-    #sliderContainer .stripeBox {
-        width: 100%;
-       
-    }
+        .stripeBox {
+            width: 100%;
+            .stripe {
+                left: 0;
+                width: 100%;
+                background: #00000094;
 
-    #sliderContainer .stripeBox .stripe .logoBox {
-        width: 100px;
-        padding: 7px 10px;
-        margin: 0;
-        margin-left: 20px;
-    }
+                .logoBox {
+                    width: 100px;
+                    padding: 7px 10px;
+                    margin: 0;
+                    margin-left: 20px;
+                }
 
-    #sliderContainer .stripeBox .textBox .text {
-       text-align: center;
+                .textBox .text {
+                    text-align: center;
+                }
+            }
+        }
     }
 }

@@ -6,15 +6,16 @@
     justify-content: flex-end;
     right: 0;
 
-    ul.nav-items {
+    ul.navItems {
         display: flex;
         color: white;
         justify-content: flex-end;
         align-items: center;
-        width: 700px;
+        width: 800px;
         padding: 15px;
+        padding-top: 5px;
 
-        li.nav-item {
+        li.navItem {
             width: auto;
             list-style-type: none;
             margin: 7.5px;
@@ -49,7 +50,7 @@
         border: 1px solid transparent;
     }
 
-    #menuContainer ul.nav-items {
+    #menuContainer ul.navItems {
         display: none;
     }
 }

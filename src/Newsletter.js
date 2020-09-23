@@ -12,7 +12,7 @@ function Newsletter() {
                 </div>
                 <div class="form">
                     <div class="newsLetterBox">
-                        <input type="email" placeholder="Twój adres email"></input><button type="submit" class="btn">Zapisz się</button>
+                        <input type="email" placeholder="Twój adres email"></input><div class="btnBox"><button type="submit" class="btn">Zapisz się</button></div>
                     </div>
                     <div class="agree">
                         <input type="checkbox" value="checkbox"></input>

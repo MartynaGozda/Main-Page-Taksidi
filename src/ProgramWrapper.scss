@@ -47,17 +47,17 @@
 }
 
 @media only screen and (max-width: 768px) {
-    #programContainer .programBox h2 {
-        font-size: 30px;
-        text-align: center;
-    }
-
-    #programContainer .programBox .programBoxes {
-        margin-top: 70px;
-        justify-content: flex-start;
-    }
-
-    .oneProgramBox {
-        margin: 0 30px;
+    #programContainer .programBox {
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+        .programBoxes {
+            margin-top: 70px;
+            justify-content: flex-start;
+        }
+        .oneProgramBox {
+            margin: 0 30px;
+        }
     }
 }

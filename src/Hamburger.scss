@@ -1,4 +1,4 @@
-.b-a {
+.beforeAfter {
   transition: all 0.25s;
   content: "";
   position: absolute;
@@ -8,7 +8,8 @@
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.95);
 }
-.menu-collapsed {
+
+.menuCollapsed {
   transition: all 0.25s;
   position: absolute;
   top: 10px;
@@ -32,24 +33,24 @@
   }
 }
 .bar {
-  @extend .b-a;
+  @extend .beforeAfter;
   position: absolute;
   right: 20px;
   top: 13px;
   &:before {
-    @extend .b-a;
+    @extend .beforeAfter;
     top: -8px;
   }
   &:after {
-    @extend .b-a;
+    @extend .beforeAfter;
     top: 8px;
   }
 }
-.b-a-expanded {
+.beforeAfter-expanded {
   transition: all 0.25s;
   top: -0px;
 }
-.menu-expanded {
+.menuExpanded {
   transition: all 0.25s;
 
   line-height: 30px;
@@ -87,11 +88,11 @@
     transition: all 0.25s;
     top: -30px;
     &:before {
-      @extend .b-a-expanded;
+      @extend .beforeAfter-expanded;
       transform: rotate(45deg);
     }
     &:after {
-      @extend .b-a-expanded;
+      @extend .beforeAfter-expanded;
       transform: rotate(-45deg);
     }
   }
@@ -99,19 +100,10 @@
 .row {
   padding-top: 150px;
 }
-h1 {
-  font-size: 3em;
-}
-h3 {
-  color: #999;
-}
-p {
-  line-height: 160%;
-  letter-spacing: 1px;
-}
+
 
 @media only screen and (max-width: 1200px) {
-  .menu-collapsed {
+  .menuCollapsed {
     display: block;
   }
 }

@@ -8,7 +8,7 @@ function Destination() {
             <div class="content">
                 <div class="text">
                     <h2>Obierz swój kierunek</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    <p class="mainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat. </p>
                 </div>
@@ -32,7 +32,7 @@ function Destination() {
                             <h3>... i wiele więcej</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                          magna aliqua. </p>
-                            <button class="btn">Sprawdź</button>
+                            <button id="btnMore" class="btn">Sprawdź</button>
                         </div>
                     </div>
                 </div>

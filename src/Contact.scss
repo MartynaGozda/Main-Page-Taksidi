@@ -16,6 +16,7 @@
             flex-direction: column;
             max-width: 90vw;
             flex-wrap: wrap;
+            min-width: 350px;
 
             h1 {
                 font-size: 30px;
@@ -102,31 +103,28 @@
     #contactContainer {
         margin: 30px 0;
         justify-content: center;
-    }
+        text-align: center;
 
-    #contactContainer .wrapper .form form {
-        max-width: 100%;
-    }
+        .wrapper {
+            margin: 0;
+            justify-content: center;
+            flex-direction: column;
 
-    #contactContainer .wrapper {
-        margin: 0;
-        justify-content: center;
-        flex-direction: column;
-        .box {
-            text-align: center;
-
-            .btn {
-                margin: 30px auto;
+            .box {
+                .btn {
+                    margin: 30px auto;
+                }
+            }
+            .form {
+                max-width: 100%;
+                justify-content: center;
+                form {
+                    max-width: 100%;
+                    button {
+                        margin: 20px auto 0;
+                    }
+                }
             }
         }
     }
-    #contactContainer .wrapper .form form button {
-        margin: 20px auto 0;
-    }
-}
-
-
-#contactContainer .wrapper .form {
-    max-width: 100%;
-    justify-content: center;
 }
