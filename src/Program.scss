@@ -1,8 +1,9 @@
 .oneProgramBox {
-    width: 300px;
+    width: auto;
     height: 350px;
     text-align: center;
     padding: 30px 0;
+    max-width: 350px;
     margin: auto;
  
 
@@ -16,19 +17,23 @@
         font-weight: 500;
         font-size: 25px;
         text-align: center;
+        margin: 30px 0;
     }
 
     p {
         text-align: center;
         color: white;
         padding: 0 30px;
+        padding-bottom: 20px;
     }
 
     button {
         background-color: transparent;
         color: white;
-        border: 1px solid white;
-        margin-top: 20px;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
     }
 
     button:hover,
@@ -39,5 +44,3 @@
         border: none;
     }
 }
-
-
