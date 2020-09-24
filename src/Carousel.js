@@ -9,7 +9,7 @@ var ProgramArr = [
         index: 1,
         icon: 'fas fa-glass-cheers',
         program: "Party",
-        info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        info: 'Jeśli przede wszystkim chcesz świetnie się bawić i poznać masę nowych ludzi, ten wyjazd jest właśnie dla Ciebie!',
         btn: 'Imprezuj'
     },
 
@@ -17,7 +17,7 @@ var ProgramArr = [
         index: 2,
         icon: 'fas fa-globe-europe',
         program: "Explore",
-        info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        info: 'Kładziemy nacisk na ciekawe doświadczenia, a wieczorne animacje opieramy na unikatowych atrakcjach.',
         btn: 'Zwiedzaj'
     },
 
@@ -26,7 +26,7 @@ var ProgramArr = [
         index: 3,
         icon: 'fas fa-music',
         program: "Festiwal",
-        info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        info: 'Wyjazdy w stylu Festival to najciekawsze wyjazdy sezonu z masą atrakcji, warsztatów, apresów i koncertów.',
         btn: 'Baw się'
     },
 
@@ -35,7 +35,7 @@ var ProgramArr = [
         index: 4,
         icon: 'fas fa-users',
         program: "Family",
-        info: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        info: 'Ofertę Family kierujemy ją do tych, którzy chcą wspólnie ze swoimi pociechami spędzić owocny czas.',
         btn: 'Bądź z rodziną'
     },
 

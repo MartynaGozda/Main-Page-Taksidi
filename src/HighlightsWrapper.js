@@ -130,9 +130,7 @@ class HighlightsWrapper extends Component {
                 <div id="highlightsContainer">
                     <div class="textBox">
                         <h2>Doświadczaj więcej</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip ex ea commodo consequat. </p>
+                        <p>Poniżej prezentujemy listę atrakcji, które są realizowane na naszych wyjazdach. Zaznaczamy, że szczegółową rozpiskę potwierdzonych atrakcji wyjazdowych każdy uczestnik otrzyma na około 5 dni przed swoim wyjazdem i będzie ona wgrana w jego Panel Klienta </p>
                     </div>
                     <div className='main' id="main">
                         <div className='wrapper'>

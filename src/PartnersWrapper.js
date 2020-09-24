@@ -28,7 +28,7 @@ var PartnersArr = [
     {
         index: 4,
         image: './img/logoOFC.png',
-        info: 'Nasza mara modowa dla ludzi aktywnych.',
+        info: 'Nasza marka modowa dla ludzi aktywnych.',
         page: 'https://offcoursewear.pl'
     }
 

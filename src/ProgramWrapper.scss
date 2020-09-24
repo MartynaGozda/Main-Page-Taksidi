@@ -1,10 +1,9 @@
 #programContainer {
     width: 100%;
-    height: 730px;
 
     .programBox {
         position: relative;
-        height: 700px;
+        height: 600px;
         margin: auto;
         background: url("./img/taksidi-program.jpg");
         background-size: cover;
@@ -14,7 +13,7 @@
             background-color: #020202ad;
             width: 100%;
             height: 100%;
-            border-radius: 12px;
+            
         }
 
         h2 {
@@ -25,8 +24,8 @@
             text-align: center;
             transform: translateX(-50%);
             color: white;
-            font-weight: 500;
-            font-size: 35px;
+            font-weight: 400;
+            font-size: 30px;
         }
 
         .programBoxes {

@@ -1,25 +1,29 @@
 #highlightsContainer {
-  height: 760px;
+  height: 800px;
   text-align: center;
 
   .textBox {
     align-items: center;
     display: flex;
     flex-direction: column;
-    width: 600px;
     margin: auto;
     max-width: 90vw;
 
     h2 {
-      margin-bottom: 30px 0;
       letter-spacing: 0.6px;
       font-size: 27px;
+      margin: 50px 0 40px 0;
     }
 
     p {
       margin-top: 0;
       text-align: center;
+      width: 600px;
     }
+  }
+
+  .textBox .title {
+    width: auto;
   }
 
   .main {

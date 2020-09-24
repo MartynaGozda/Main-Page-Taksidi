@@ -8,9 +8,7 @@ function Destination() {
             <div class="content">
                 <div class="text">
                     <h2>Obierz swój kierunek</h2>
-                    <p class="mainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. </p>
+                    <p class="mainText">TAKSIDI to zorganizowane wyjazdy narciarskie i snowboardowe dla młodych i aktywnych ludzi do renomowanych alpejskich ośrodków we Francji, Włoszech, Szwajcarii i Austrii. Nasze wyjazdy to połączenie dobrej zabawy na najlepszych stokach, imprez, warsztatów i mnóstwa dodatkowych atrakcji.</p>
                 </div>
                 <div class="wrapper">
                     <div class="oneDestination">
@@ -30,8 +28,7 @@ function Destination() {
                     <div class="oneDestination">
                         <div class="text">
                             <h3>... i wiele więcej</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                         magna aliqua. </p>
+                            <p>Sprawdź wszystkie dostępne destynacje w sezonie 2020/2021.</p>
                             <button id="btnMore" class="btn">Sprawdź</button>
                         </div>
                     </div>

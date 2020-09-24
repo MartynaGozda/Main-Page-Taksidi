@@ -8,7 +8,7 @@ function ProgramWrapper() {
         <div id="programContainer">
             <div class="programBox">
                 <div class="overlayImage"></div>
-                <h2>Rób to, czego pragniesz</h2>
+                <h2>Jak wybrać wyjazd na narty dopasowany do Ciebie?</h2>
                 <div class="programBoxes">
                 <Carousel />
                 </div>
