@@ -1,12 +1,18 @@
 
 import React from 'react';
-import './Slider.scss'
-import Menu from './Menu.js'
+import './Slider.scss';
+import Menu from './Menu.js';
+import { Player } from 'video-react';
+import video from "./video/alpy_1.mp4";
 
 function Slider() {
     return (
         <div id="sliderContainer">
+            <Player muted={true} autoPlay={true} loop={true} playsinline={true} >
+                <source src={video} type="video/mp4" />
+            </Player>
             <Menu />
+           
             <div class="stripeBox">
                 <div class="stripe">
                     <div class="logoBox">

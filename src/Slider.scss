@@ -1,8 +1,10 @@
+@import "~video-react/styles/scss/video-react";
+
 #sliderContainer {
-    height: 800px;
-    background-image: url("./img/cover-taksidi.jpg");
+    height: 550px;
+    // background-image: url("./img/cover-taksidi.jpg");
     z-index: -2;
-    padding-left: 35px;
+    // padding-left: 35px;
     background-size: cover;
     background-position: center;
 
@@ -10,14 +12,15 @@
         width: 35%;
         height: 100%;
         background-color: transparent;
-        position: relative;
+        position: absolute; /*add*/
+        top: 0; /*add*/
 
         .stripe {
             position: absolute;
             left: 50px;
             top: 0;
             width: 85%;
-            height: 100%;
+            height: 550px; /* add */
             background-color: #0a1e2c;
             z-index: 0;
 
@@ -78,6 +81,50 @@
                 }
             }
         }
+    }
+}
+
+.video-react {
+    height: 550px!important;
+    padding: 0 !important;
+    pointer-events: none;
+}
+
+.video-react-video {
+    // object-fit: none;
+}
+
+.video-react-has-started .video-react-control-bar {
+    display: none;
+}
+
+#content > header > div > button {
+    display: none;
+}
+
+.video-react .video-react-video {
+    position: relative;
+    top: inherit;
+    left: inherit;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+    .video-react-video {
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #sliderContainer {
+        background-image: url("./img/cover-taksidi.jpg");
+    }
+
+    .video-react.video-react-fluid,
+    .video-react.video-react-16-9,
+    .video-react.video-react-4-3 {
+        display: none;
     }
 }
 

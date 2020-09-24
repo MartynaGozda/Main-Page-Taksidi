@@ -2,7 +2,6 @@
 import React from 'react';
 import './PartnersWrapper.scss';
 import Partner from "./Partner.js";
-// import Carousel from "./Carousel.js";
 
 var PartnersArr = [
     {
@@ -45,7 +44,6 @@ function PartnersWrapper() {
                 <Partner singlePartner={PartnersArr[2]} />
                 <Partner singlePartner={PartnersArr[3]} />
             </div>
-            
         </div>
     );
 }
