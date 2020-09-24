@@ -57,12 +57,13 @@
                     font-size: 13px;
                 }
 
-                p {
+                p, a {
                     color: white;
                     font-size: 12px;
                     font-family: sans-serif;
                     letter-spacing: 0.4px;
                     margin-bottom: 14px;
+                    text-decoration: none;
                 }
             }
         }

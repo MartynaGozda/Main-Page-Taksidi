@@ -20,41 +20,41 @@ function Footer() {
                 <div class="wrapper">
                     <div class="oneFooterBox">
                         <h5>Nasze Wyjazdy</h5>
-                        <p>Przeglądaj wyjazdy</p>
-                        <p>Ores specjalny</p>
-                        <p>Kraj</p>
+                        <p><a href="">Przeglądaj wyjazdy</a></p>
+                        <p><a href="">Okres specjalny</a></p>
+                        <p><a href="">Kraj</a></p>
                     </div>
                     <div class="oneFooterBox">
                         <h5>Okres specjalny</h5>
-                        <p>Majówka</p>
-                        <p>Boże Ciało</p>
-                        <p>Sylwester</p>
+                        <p><a href="">Majówka</a></p>
+                        <p><a href="">Boże Ciało</a></p>
+                        <p><a href="">Sylwester</a></p>
                     </div>
                     <div class="oneFooterBox">
                         <h5>Promocje</h5>
-                        <p>Zniżki</p>
-                        <p>Promocje</p>
-                        <p>Partner</p>
+                        <p><a href="">Zniżki</a></p>
+                        <p><a href="">Promocje</a></p>
+                        <p><a href="">Partner</a></p>
                     </div>
                     <div class="oneFooterBox">
                         <h5>Dlaczego My</h5>
-                        <p>Wyjazdy dla każdego</p>
-                        <p>Najlepsze wyjazdy</p>
-                        <p>Najlepsze apartamenty</p>
-                        <p>Najlepsze atrakcje</p>
-                        <p>Najlepsze wspomnienia</p>
+                        <p><a href="">Wyjazdy dla każdego</a></p>
+                        <p><a href="">Najlepsze wyjazdy</a></p>
+                        <p><a href="">Najlepsze apartamenty</a></p>
+                        <p><a href="">Najlepsze atrakcje</a></p>
+                        <p><a href="">Najlepsze wspomnienia</a></p>
                     </div>
                     <div class="oneFooterBox">
                         <h5>O nas</h5>
-                        <p>O firmie</p>
-                        <p>Nasi ludzie</p>
-                        <p>Pracuj z Nami</p>
-                        <p>Formalnośći</p>
+                        <p><a href="">O firmie</a></p>
+                        <p><a href="">Nasi ludzie</a></p>
+                        <p><a href="">Pracuj z Nami</a></p>
+                        <p><a href="">Formalnośći</a></p>
                     </div>
                     <div class="oneFooterBox">
                         <h5>Kontakt</h5>
-                        <p>Skontaktuj się z nami</p>
-                        <p>FAQ</p>
+                        <p><a href="">Skontaktuj się z nami</a></p>
+                        <p><a href="">FAQ</a></p>
                     </div>
                 </div>
             </div>
