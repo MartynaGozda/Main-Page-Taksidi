@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import './Carousel.scss';
+import './ProgramCarousel.scss';
 import Program from "./Program.js";
 import './ProgramWrapper.scss';
 
@@ -41,7 +41,7 @@ var ProgramArr = [
 
 ];
 
-class Carousel extends React.Component {
+class ProgramCarousel extends React.Component {
     render() {
         var settings = {
             infinite: true,
@@ -95,7 +95,7 @@ class Carousel extends React.Component {
     }
 }
 
-export default Carousel
+export default ProgramCarousel
 
 
 

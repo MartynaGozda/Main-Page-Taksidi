@@ -1,16 +1,16 @@
 
 import React from 'react';
 import './ProgramWrapper.scss';
-import Carousel from "./Carousel.js"                 
+import ProgramCarousel from "./ProgramCarousel.js"                 
 
 function ProgramWrapper() {
     return (
         <div id="programContainer">
             <div class="programBox">
                 <div class="overlayImage"></div>
-                <h2>Jak wybrać wyjazd na narty dopasowany do Ciebie?</h2>
+                <h2>Rób to, czego pragniesz</h2>
                 <div class="programBoxes">
-                <Carousel />
+                <ProgramCarousel />
                 </div>
             </div>
         </div>

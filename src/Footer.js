@@ -20,41 +20,41 @@ function Footer() {
                 <div class="wrapper">
                     <div class="oneFooterBox">
                         <h5>Nasze Wyjazdy</h5>
-                        <p><a href="">Przeglądaj wyjazdy</a></p>
-                        <p><a href="">Okres specjalny</a></p>
-                        <p><a href="">Kraj</a></p>
+                        <p><a href="#contactContainer">Przeglądaj wyjazdy</a></p>
+                        <p><a href="#contactContainer">Okres specjalny</a></p>
+                        <p><a href="#contactContainer">Kraj</a></p>
                     </div>
                     <div class="oneFooterBox">
                         <h5>Okres specjalny</h5>
-                        <p><a href="">Majówka</a></p>
-                        <p><a href="">Boże Ciało</a></p>
-                        <p><a href="">Sylwester</a></p>
+                        <p><a href="#contactContainer">Majówka</a></p>
+                        <p><a href="#contactContainer">Boże Ciało</a></p>
+                        <p><a href="#contactContainer">Sylwester</a></p>
                     </div>
                     <div class="oneFooterBox">
                         <h5>Promocje</h5>
-                        <p><a href="">Zniżki</a></p>
-                        <p><a href="">Promocje</a></p>
-                        <p><a href="">Partner</a></p>
+                        <p><a href="#contactContainer">Zniżki</a></p>
+                        <p><a href="#contactContainer">Promocje</a></p>
+                        <p><a href="#contactContainer">Partner</a></p>
                     </div>
                     <div class="oneFooterBox">
                         <h5>Dlaczego My</h5>
-                        <p><a href="">Wyjazdy dla każdego</a></p>
-                        <p><a href="">Najlepsze wyjazdy</a></p>
-                        <p><a href="">Najlepsze apartamenty</a></p>
-                        <p><a href="">Najlepsze atrakcje</a></p>
-                        <p><a href="">Najlepsze wspomnienia</a></p>
+                        <p><a href="#contactContainer">Wyjazdy dla każdego</a></p>
+                        <p><a href="#contactContainer">Najlepsze wyjazdy</a></p>
+                        <p><a href="#contactContainer">Najlepsze apartamenty</a></p>
+                        <p><a href="#contactContainer">Najlepsze atrakcje</a></p>
+                        <p><a href="#contactContainer">Najlepsze wspomnienia</a></p>
                     </div>
                     <div class="oneFooterBox">
                         <h5>O nas</h5>
-                        <p><a href="">O firmie</a></p>
-                        <p><a href="">Nasi ludzie</a></p>
-                        <p><a href="">Pracuj z Nami</a></p>
-                        <p><a href="">Formalnośći</a></p>
+                        <p><a href="#contactContainer">O firmie</a></p>
+                        <p><a href="#contactContainer">Nasi ludzie</a></p>
+                        <p><a href="#contactContainer">Pracuj z Nami</a></p>
+                        <p><a href="#contactContainer">Formalnośći</a></p>
                     </div>
                     <div class="oneFooterBox">
                         <h5>Kontakt</h5>
-                        <p><a href="">Skontaktuj się z nami</a></p>
-                        <p><a href="">FAQ</a></p>
+                        <p><a href="#contactContainer">Skontaktuj się z nami</a></p>
+                        <p><a href="#contactContainer">FAQ</a></p>
                     </div>
                 </div>
             </div>

@@ -1,18 +1,30 @@
 
 import React from 'react';
+import AwesomeSlider from 'react-awesome-slider';
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
+import 'react-awesome-slider/dist/styles.css';
 import './Slider.scss';
 import Menu from './Menu.js';
 import { Player } from 'video-react';
 import video from "./video/alpy_1.mp4";
 
+const AutoplaySlider = withAutoplay(AwesomeSlider);
+
 function Slider() {
     return (
         <div id="sliderContainer">
-            <Player muted={true} autoPlay={true} loop={true} playsinline={true} >
-                <source src={video} type="video/mp4" />
-            </Player>
+            <AutoplaySlider
+                play={true}
+                cancelOnInteraction={false} 
+                interval={6000}
+            >
+                <div><img src={require("./img/cover-taksidi.jpg")} /></div>
+                <><Player muted={true} autoPlay={true} loop={true} playsinline={true} controls={false} url="">
+                    <source src={video} type="video/mp4" />
+                </Player></>
+                <div><img src={require("./img/cover-taksidi-2.jpg")} /></div>
+            </AutoplaySlider>
             <Menu />
-           
             <div class="stripeBox">
                 <div class="stripe">
                     <div class="logoBox">
