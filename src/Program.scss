@@ -5,7 +5,6 @@
     padding: 30px 0;
     max-width: 350px;
     margin: auto;
- 
 
     i {
         color: white;
@@ -23,8 +22,7 @@
     p {
         text-align: center;
         color: white;
-        padding: 0 30px;
-        padding-bottom: 20px;
+        padding: 0 20px;
     }
 
     button {
@@ -34,6 +32,7 @@
         border-top: 1px solid white;
         border-left: 2px solid white;
         border-right: 2px solid white;
+        margin-top: 20px;
     }
 
     button:hover,
@@ -43,4 +42,21 @@
         box-shadow: none;
         border: none;
     }
+}
+
+@media only screen and (max-width: 480px) {
+    .oneProgramBox {
+        p {
+            min-height: 170px;
+        }
+
+        button {
+            margin-top: 0px;
+        }
+    }
+
+    .slick-dots {
+        bottom: 10px;
+    }
+
 }

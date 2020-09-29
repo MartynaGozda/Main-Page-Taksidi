@@ -1,6 +1,6 @@
 #highlightsContainer {
-  height: 800px;
   text-align: center;
+  padding-bottom: 70px;
 
   .textBox {
     align-items: center;
@@ -19,6 +19,7 @@
       margin-top: 0;
       text-align: center;
       width: 600px;
+      max-width: 90vw;
     }
   }
 

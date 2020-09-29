@@ -13,13 +13,12 @@
             background-color: #020202ad;
             width: 100%;
             height: 100%;
-            
         }
 
         h2 {
-            width: 100%;
+            width: 95%;
             position: absolute;
-            top: 30px;
+            top: 45px;
             left: 50%;
             text-align: center;
             transform: translateX(-50%);
@@ -44,5 +43,11 @@
             height: 600px;
             align-items: center;
         }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #programContainer .programBox {
+        height: 700px;
     }
 }

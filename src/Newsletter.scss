@@ -105,6 +105,8 @@
                 input[type="email"] {
                     margin-bottom: 30px;
                     padding: 5px 7px;
+                    margin-right: 0;
+                    width: 270px;
                 }
 
                 .newsLetterBox {
@@ -120,6 +122,7 @@
             }
             .newsLetterTitle {
                 width: auto;
+                margin-right: 0;
             }
         }
     }

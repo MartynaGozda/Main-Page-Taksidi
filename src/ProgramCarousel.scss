@@ -2,6 +2,7 @@
   padding: 50px;
   width: 100%;
   overflow-x: hidden;
+  padding-top: 100px;
 }
 
 .slick-slide img {
@@ -9,7 +10,9 @@
 }
 
 .slick-dots {
-  bottom: 0;
+  bottom: 30px;
+  display: flex !important;
+  justify-content: center;
   li {
     width: 50px;
     button {
@@ -61,6 +64,15 @@
 
 @media only screen and (max-width: 480px) {
   .containerCarousel {
-    padding-bottom: 0;
+    padding: 0 35px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .slick-list,
+  .slick-slider,
+  .slick-track {
+    height: 500px;
+    padding-top: 10px;
   }
 }
