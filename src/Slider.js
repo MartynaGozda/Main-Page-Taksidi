@@ -6,7 +6,7 @@ import 'react-awesome-slider/dist/styles.css';
 import './Slider.scss';
 import Menu from './Menu.js';
 import { Player } from 'video-react';
-import video from "./video/alpy_1.mp4";
+import video from "./video/verbier2.mp4";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
