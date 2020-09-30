@@ -9,53 +9,61 @@ var TestimonialsArr = [
     {
         index: 1,
         image: "./img/girl1.jpg",
-        name: 'Ania',
-        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
+        name: 'Ania, ',
+        job: 'studentka z Krakowa',
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper.  Lorem ipsum dolor sit amet enim. Suspendisse a pellentesque dui, non felis. Lorem ipsum dolor sit amet enim. '
     },
 
     {
         index: 2,
         image: './img/man1.jpg',
-        name: 'Jacek',
-        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis.'
+        name: 'Jacek, ',
+        job: 'pracownik IT',
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper.  Lorem ipsum dolor sit amet enim. Suspendisse a pellentesque dui, non felis. Lorem ipsum dolor sit amet enim. '
     },
 
     {
         index: 3,
         image: './img/man2.jpg',
-        name: 'Robert',
-        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
+        name: 'Robert, ',
+        job: 'dentysta',
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper.  Lorem ipsum dolor sit amet enim. Suspendisse a pellentesque dui, non felis. Lorem ipsum dolor sit amet enim. '
     },
     {
         index: 4,
         image: './img/man2.jpg',
-        name: 'Tomasz',
-        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
+        name: 'Tomasz, ',
+        job: 'fotograf z Warszawy',
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper.  Lorem ipsum dolor sit amet enim. Suspendisse a pellentesque dui, non felis. Lorem ipsum dolor sit amet enim. '
     },
     {
         index: 5,
         image: './img/man1.jpg',
-        name: 'Paweł',
-        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
+        name: 'Paweł, ',
+        job: 'student z Wrocławia',
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper.  Lorem ipsum dolor sit amet enim. Suspendisse a pellentesque dui, non felis. Lorem ipsum dolor sit amet enim. '
     },
 
     {
         index: 6,
         image: './img/man2.jpg',
-        name: 'Robert',
-        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
+        name: 'Robert, ',
+        job: 'grafik z Poznania',
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper.  Lorem ipsum dolor sit amet enim. Suspendisse a pellentesque dui, non felis. Lorem ipsum dolor sit amet enim. '
     },
     {
         index: 7,
         image: './img/man2.jpg',
-        name: 'Piotr',
-        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
+        name: 'Piotr, ',
+        job: 'prawnik z Zamościa',
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper.  Lorem ipsum dolor sit amet enim. Suspendisse a pellentesque dui, non felis. Lorem ipsum dolor sit amet enim. '
     },
     {
         index: 8,
         image: './img/man1.jpg',
-        name: 'Krzysztof',
-        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. '
+        name: 'Krzysztof', 
+        job: 'pracownik biura',
+        testimonial_text: 'Lorem ipsum dolor sit amet enim. Etiam ullamcorper.  Lorem ipsum dolor sit amet enim. Suspendisse a pellentesque dui, non felis. Lorem ipsum dolor sit amet enim. '
     }
 ];
 
@@ -120,7 +128,7 @@ class TestimonialsWrapper extends Component {
                         <div className="prev" onClick={this.scroll.bind(null, -1)}>&#10094;</div>
                         <div className="testimonialsWrapper">
                             {GenerateTestimonialsArr().map((el) =>
-                                <Testimonial image={el.image} name={el.name} text={el.testimonial_text} />
+                                <Testimonial image={el.image} name={el.name} job={el.job} text={el.testimonial_text} />
                             )}
                         </div>
                         <div className="next" onClick={this.scroll.bind(null, 1)}>&#10095;</div>

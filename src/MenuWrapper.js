@@ -74,8 +74,8 @@ class MenuWrapper extends React.Component {
     render() {
         return (
             <>
-                <div class="menuCollapsed">
-                    <div class="bar"></div>
+                <div className="menuCollapsed">
+                    <div className="bar"></div>
                     <nav>
                         <ul>
                             {MenuArr.map((hamburgerItem) =>
@@ -85,9 +85,9 @@ class MenuWrapper extends React.Component {
                     </nav>
                 </div>
                 <div id="menuContainer">
-                    <ul class="navItems">
+                    <ul className="navItems">
                         {MenuArr.map((menuItem) =>
-                            <MenuEl name={menuItem.name} menu_link={menuItem.menu_link} class={menuItem.class} />
+                            <MenuEl name={menuItem.name} menu_link={menuItem.menu_link} className={menuItem.class} />
                         )}
                     </ul>
                 </div>

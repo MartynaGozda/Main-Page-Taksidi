@@ -5,29 +5,29 @@ import './Contact.scss';
 function Contact() {
     return (
         <div id="contactContainer">
-            <div class="wrapper">
-                <div class="box">
+            <div className="wrapper">
+                <div className="box">
                     <h1>Masz pytania?</h1>
-                    <div class="contact">
+                    <div className="contact">
                         <p>info@taksidi.pl</p>
                         <p>+48 530 033 292</p>
                     </div>
-                    <div class="adress">
+                    <div className="adress">
                         <p>ul. Wołodyjowskiego 40</p>
                         <p>02-697 Warszawa</p>
                     </div>
-                    <div class="openingHours">
+                    <div className="openingHours">
                         <p>Poniedziałek - piątek 10.00 - 15.00</p>
                     </div>
-                    <button class="btn">Sprawdź FAQ</button>
+                    <button className="btn">Sprawdź FAQ</button>
                 </div>
-                <div class="form">
+                <div className="form">
                     <form action="dodaj.php" method="POST">
                         <label>Twój adres e-mail</label>
                         <input type="email" placeholder="Twój adres e-mail"></input>
                         <label>Treść wiadomości</label>
                         <textarea placeholder="W czym możemy Ci pomóc?" rows="8" cols="50"></textarea>
-                        <button type="submit" class="btn">Wyślij wiadomość</button>
+                        <button type="submit" className="btn">Wyślij wiadomość</button>
                     </form>
                 </div>
             </div>

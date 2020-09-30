@@ -38,7 +38,7 @@ var PartnersArr = [
 function PartnersWrapper() {
     return (
         <div id="partnersContainer">
-            <div class="partnersWrapper">
+            <div className="partnersWrapper">
                 {PartnersArr.map((onePartner) =>
                     <Partner image={onePartner.image} info={onePartner.info} page={onePartner.page} />
                 )}

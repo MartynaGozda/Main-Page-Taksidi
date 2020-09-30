@@ -39,20 +39,23 @@ $sColor: rgba(0, 0, 0, 0.32);
     .testimonialName {
         position: absolute;
         left: 50%;
-        top: 33%;
+        bottom: 0;
         transform: translate(-50%, -50%);
-        font-family: $textTestimonial;
         font-weight: normal;
-        font-size: 21px;
-        font-style: italic;
-        color: $fColor;
+        font-size: 14px;
+        color: #666;
+        width: 100%;
+        font-weight: 600;
+        span {
+        color: #666;
+        }
     }
 
     .testimonialText {
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
-        top: 60%;
+        top: 45%;
         width: 90%;
         text-overflow: ellipsis;
         overflow: hidden;

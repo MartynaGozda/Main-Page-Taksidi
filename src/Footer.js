@@ -149,20 +149,20 @@ var ContactArr = [
 function Footer() {
     return (
         <div id="footerContainer">
-            <div class="footerMenu">
-                <div class="top">
-                    <div class="imageLogo" ><img src={require('./img/logo-taksidi.png')} alt='logo' /></div>
-                    <div class="socialMediaContainer">
+            <div className="footerMenu">
+                <div className="top">
+                    <div className="imageLogo" ><img src={require('./img/logo-taksidi.png')} alt='logo' /></div>
+                    <div className="socialMediaContainer">
                         <p>Śledź Nas!</p>
-                        <div class="icons">
-                            <i class="fab fa-facebook-square"></i>
-                            <i class="fab fa-instagram"></i>
-                            <i class="fab fa-youtube"></i>
+                        <div className="icons">
+                            <i className="fab fa-facebook-square"></i>
+                            <i className="fab fa-instagram"></i>
+                            <i className="fab fa-youtube"></i>
                         </div>
                     </div>
                 </div>
-                <div class="wrapper">
-                    <div class="oneFooterBox">
+                <div className="wrapper">
+                    <div className="oneFooterBox">
                         <h5>Nasze wyjazdy</h5>
                         {OurTripsArr.map((oneElement) =>
                             <FooterColumn
@@ -170,7 +170,7 @@ function Footer() {
                         )}
                     </div>
 
-                    <div class="oneFooterBox">
+                    <div className="oneFooterBox">
                         <h5>Okres specjalny</h5>
                         {SpecialTripsArr.map((oneElement) =>
                             <FooterColumn
@@ -179,7 +179,7 @@ function Footer() {
                     </div>
 
 
-                    <div class="oneFooterBox">
+                    <div className="oneFooterBox">
                         <h5>Promocje</h5>
                         {DiscountsArr.map((oneElement) =>
                             <FooterColumn
@@ -187,7 +187,7 @@ function Footer() {
                         )}
                     </div>
 
-                    <div class="oneFooterBox">
+                    <div className="oneFooterBox">
                         <h5>Dlaczego My?</h5>
                         {WhyUsArr.map((oneElement) =>
                             <FooterColumn
@@ -195,7 +195,7 @@ function Footer() {
                         )}
                     </div>
 
-                    <div class="oneFooterBox">
+                    <div className="oneFooterBox">
                         <h5>O nas</h5>
                         {AboutUsArr.map((oneElement) =>
                             <FooterColumn
@@ -203,7 +203,7 @@ function Footer() {
                         )}
                     </div>
 
-                    <div class="oneFooterBox">
+                    <div className="oneFooterBox">
                         <h5>O nas</h5>
                         {ContactArr.map((oneElement) =>
                             <FooterColumn
@@ -213,37 +213,37 @@ function Footer() {
 
                 </div>
             </div>
-            <div class="footerContact">
-                <div class="container">
-                    <div class="wrapper">
-                        <div class="oneContactBox">
+            <div className="footerContact">
+                <div className="container">
+                    <div className="wrapper">
+                        <div className="oneContactBox">
                             <h5>Dane Firmy</h5>
                             <p>Taksidi Sp. z o.o.</p>
                             <p>ul. Armii Krajowej 3</p>
                             <p>05-530 Góra Kalwaria</p>
                             <p>NIP 123 122 14 63</p>
                         </div>
-                        <div class="oneContactBox">
+                        <div className="oneContactBox">
                             <h5>Dane kontaktowe</h5>
                             <p>Taksidi Sp. z o.o.</p>
                             <p>ul. Armii Krajowej 3</p>
                             <p>05-530 Góra Kalwaria</p>
                             <p>NIP 123 122 14 63</p>
                         </div>
-                        <div class="oneContactBox">
+                        <div className="oneContactBox">
                             <h5>Licencja</h5>
                             <p>Numer licencji organizatora turystyki 1163</p>
                         </div>
                     </div>
                 </div>
-                <div class="footerBottom">
-                    <div class="text">
+                <div className="footerBottom">
+                    <div className="text">
                         <p>Regulamin strony</p>
                         <p>Polityka Prywatnosci</p>
-                        <p class="copyRight">© 2020 Copyright Taksidi. Wykonanie: Kerris Group</p>
+                        <p className="copyRight">© 2020 Copyright Taksidi. Wykonanie: Kerris Group</p>
                     </div>
-                    <div class="logo"><img src={require("./img/fundusze.jpg")} alt="" /></div>
-                    <p class="copyRight2">© 2020 Copyright Taksidi. Wykonanie: Kerris Group</p>
+                    <div className="logo"><img src={require("./img/fundusze.jpg")} alt="" /></div>
+                    <p className="copyRight2">© 2020 Copyright Taksidi. Wykonanie: Kerris Group</p>
                 </div>
             </div>
         </div>

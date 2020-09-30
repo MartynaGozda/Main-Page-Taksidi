@@ -6,10 +6,10 @@ import ProgramCarousel from "./ProgramCarousel.js"
 function ProgramWrapper() {
     return (
         <div id="programContainer">
-            <div class="programBox">
-                <div class="overlayImage"></div>
+            <div className="programBox">
+                <div className="overlayImage"></div>
                 <h2>Rób to, czego pragniesz</h2>
-                <div class="programBoxes">
+                <div className="programBoxes">
                 <ProgramCarousel />
                 </div>
             </div>

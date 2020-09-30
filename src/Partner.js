@@ -4,12 +4,12 @@ import "./Partner.scss";
 class Partner extends Component {
     render() {
         return (
-            <div class="onePartner">
-                <div class="imageLogo">
+            <div className="onePartner">
+                <div className="imageLogo">
                     <img src={require(`${this.props.image}`)} alt="" /></div>
-                <div class="partnersInfo">
+                <div className="partnersInfo">
                     <p>{this.props.info}</p>
-                    <a href={this.props.page} target="_blank" rel="noopener noreferrer">Dowiedz się więcej<i class="arrow"></i></a>
+                    <a href={this.props.page} target="_blank" rel="noopener noreferrer">Dowiedz się więcej<i className="arrow"></i></a>
                 </div>
             </div>
         );
