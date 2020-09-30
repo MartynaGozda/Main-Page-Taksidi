@@ -39,10 +39,10 @@ function PartnersWrapper() {
     return (
         <div id="partnersContainer">
             <div class="partnersWrapper">
-                <Partner singlePartner={PartnersArr[0]} />
-                <Partner singlePartner={PartnersArr[1]} />
-                <Partner singlePartner={PartnersArr[2]} />
-                <Partner singlePartner={PartnersArr[3]} />
+                {PartnersArr.map((onePartner) =>
+                    <Partner image={onePartner.image} info={onePartner.info} page={onePartner.page} />
+                )}
+
             </div>
         </div>
     );

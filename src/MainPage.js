@@ -2,7 +2,7 @@
 import React from 'react';
 import Slider from "./Slider.js";
 import TestimonialsWrapper from './TestimonialsWrapper'
-import Destination from "./Destination.js"
+import DestinationWrapper from "./DestinationWrapper.js"
 import ProgramWrapper from "./ProgramWrapper.js"
 import HighlightsWrapper from "./HighlightsWrapper.js"
 import Newsletter from "./Newsletter.js"
@@ -15,7 +15,7 @@ function MainPage() {
         <div>
             <Slider />
             <TestimonialsWrapper />
-            <Destination />
+            <DestinationWrapper />
             <ProgramWrapper />
             <HighlightsWrapper />
             <Newsletter />

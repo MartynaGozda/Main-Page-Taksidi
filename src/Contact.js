@@ -22,7 +22,7 @@ function Contact() {
                     <button class="btn">Sprawdź FAQ</button>
                 </div>
                 <div class="form">
-                    <form>
+                    <form action="dodaj.php" method="POST">
                         <label>Twój adres e-mail</label>
                         <input type="email" placeholder="Twój adres e-mail"></input>
                         <label>Treść wiadomości</label>

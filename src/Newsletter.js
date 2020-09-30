@@ -12,7 +12,8 @@ function Newsletter() {
                 </div>
                 <div class="form">
                     <div class="newsLetterBox">
-                        <input type="email" placeholder="Twój adres email"></input><div class="btnBox"><button type="submit" class="btn">Zapisz się</button></div>
+                    <form action="dodaj.php" method="POST">
+                        <input type="email" placeholder="Twój adres email"></input><div class="btnBox"><button type="submit" class="btn">Zapisz się</button></div></form>
                     </div>
                     <div class="agree">
                         <input type="checkbox" value="checkbox"></input>

@@ -6,10 +6,12 @@ class Program extends Component {
     render() {
         return (
             <div class="oneProgramBox">
-                <i class={this.props.singleProgram.icon} />
-                <h4>{this.props.singleProgram.program}</h4>
-                <p>{this.props.singleProgram.info}</p>
-                <button class="btn">{this.props.singleProgram.btn}</button>
+                <div>
+                <i class={this.props.icon} />
+                <h4>{this.props.program}</h4>
+                <p>{this.props.info}</p>
+                <button class="btn">{this.props.btn}</button>
+                </div>
             </div>
         );
     }

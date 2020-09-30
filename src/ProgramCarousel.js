@@ -76,19 +76,10 @@ class ProgramCarousel extends React.Component {
 
         return (
             <div className="containerCarousel">
-                <Slider {...settings}>
-                    <div>
-                        <Program singleProgram={ProgramArr[0]} />
-                    </div>
-                    <div>
-                        <Program singleProgram={ProgramArr[1]} />
-                    </div>
-                    <div>
-                        <Program singleProgram={ProgramArr[2]} />
-                    </div>
-                    <div>
-                        <Program singleProgram={ProgramArr[3]} />
-                    </div>
+                <Slider {...settings}> 
+                {ProgramArr.map((singleProgram) =>
+                    <Program icon={singleProgram.icon} program={singleProgram.program} info={singleProgram.info} btn={singleProgram.btn} />
+                )}
                 </Slider>
             </div>
         );

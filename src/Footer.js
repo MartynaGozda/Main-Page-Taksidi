@@ -1,6 +1,150 @@
 
 import React from 'react';
 import './Footer.scss';
+import FooterColumn from './FooterColumn.js'
+
+var OurTripsArr = [
+    {
+        index: 1,
+        link: "wyjazdy",
+        title: "Przeglądaj wyjazdy",
+    },
+
+    {
+        index: 2,
+        title: "Okres Specjalny",
+        link: "Okres Specjalny",
+    },
+
+    {
+        index: 3,
+        title: "Kraj",
+        link: "Kraj",
+    },
+
+]
+
+var SpecialTripsArr = [
+    
+    {
+        index: 1,
+        link: "Majówka",
+        title: "Majówka",
+    },
+
+    {
+        index: 2,
+        title: "Boże Ciało",
+        link: "Boże Ciało",
+    },
+
+    {
+        index: 3,
+        title: "Sylwester",
+        link: "Sylwester",
+    },
+
+]
+
+var DiscountsArr = [
+    
+    {
+        index: 1,
+        link: "Zniżki",
+        title: "Zniżki",
+    },
+
+    {
+        index: 2,
+        title: "Promocje",
+        link: "Promocje",
+    },
+
+    {
+        index: 3,
+        title: "Partner",
+        link: "Partner",
+    },
+
+]
+
+var WhyUsArr = [
+    
+    {
+        index: 1,
+        link: "Wyjazdy dla każdego",
+        title: "Wyjazdy dla każdego",
+    },
+
+    {
+        index: 2,
+        title: "Najlepsze wyjazdy",
+        link: "Najlepsze wyjazdy",
+    },
+
+    {
+        index: 3,
+        title: "Najlepsze apatamenty",
+        link: "Najlepsze apatamenty",
+    },
+
+    {
+        index: 4,
+        title: "Najlepsze atrakcje",
+        link: "Najlepsze atrakcje",
+    },
+
+    {
+        index: 5,
+        title: "Najlepsze wspomnienia",
+        link: "Najlepsze wspomnienia",
+    },
+
+]
+
+var AboutUsArr = [
+    
+    {
+        index: 1,
+        link: "O firmie",
+        title: "O firmie",
+    },
+
+    {
+        index: 2,
+        title: "Nasi ludzie",
+        link: "Nasi ludzie",
+    },
+
+    {
+        index: 3,
+        title: "Pracuj z Nami",
+        link: "Pracuj z Nami",
+    },
+
+    {
+        index: 4,
+        title: "Formalności",
+        link: "Formalności",
+    }
+
+]
+
+var ContactArr = [
+    
+    {
+        index: 1,
+        link: "Skontaktuj się z nami",
+        title: "Skontaktuj się z nami",
+    },
+
+    {
+        index: 2,
+        title: "FAQ",
+        link: "FAQ",
+    },
+
+]
 
 function Footer() {
     return (
@@ -19,43 +163,54 @@ function Footer() {
                 </div>
                 <div class="wrapper">
                     <div class="oneFooterBox">
-                        <h5>Nasze Wyjazdy</h5>
-                        <p><a href="#contactContainer">Przeglądaj wyjazdy</a></p>
-                        <p><a href="#contactContainer">Okres specjalny</a></p>
-                        <p><a href="#contactContainer">Kraj</a></p>
+                        <h5>Nasze wyjazdy</h5>
+                        {OurTripsArr.map((oneElement) =>
+                            <FooterColumn
+                                link={oneElement.link} title={oneElement.title} />
+                        )}
                     </div>
+
                     <div class="oneFooterBox">
                         <h5>Okres specjalny</h5>
-                        <p><a href="#contactContainer">Majówka</a></p>
-                        <p><a href="#contactContainer">Boże Ciało</a></p>
-                        <p><a href="#contactContainer">Sylwester</a></p>
+                        {SpecialTripsArr.map((oneElement) =>
+                            <FooterColumn
+                                link={oneElement.link} title={oneElement.title} />
+                        )}
                     </div>
+
+
                     <div class="oneFooterBox">
                         <h5>Promocje</h5>
-                        <p><a href="#contactContainer">Zniżki</a></p>
-                        <p><a href="#contactContainer">Promocje</a></p>
-                        <p><a href="#contactContainer">Partner</a></p>
+                        {DiscountsArr.map((oneElement) =>
+                            <FooterColumn
+                                link={oneElement.link} title={oneElement.title} />
+                        )}
                     </div>
+
                     <div class="oneFooterBox">
-                        <h5>Dlaczego My</h5>
-                        <p><a href="#contactContainer">Wyjazdy dla każdego</a></p>
-                        <p><a href="#contactContainer">Najlepsze wyjazdy</a></p>
-                        <p><a href="#contactContainer">Najlepsze apartamenty</a></p>
-                        <p><a href="#contactContainer">Najlepsze atrakcje</a></p>
-                        <p><a href="#contactContainer">Najlepsze wspomnienia</a></p>
+                        <h5>Dlaczego My?</h5>
+                        {WhyUsArr.map((oneElement) =>
+                            <FooterColumn
+                                link={oneElement.link} title={oneElement.title} />
+                        )}
                     </div>
+
                     <div class="oneFooterBox">
                         <h5>O nas</h5>
-                        <p><a href="#contactContainer">O firmie</a></p>
-                        <p><a href="#contactContainer">Nasi ludzie</a></p>
-                        <p><a href="#contactContainer">Pracuj z Nami</a></p>
-                        <p><a href="#contactContainer">Formalnośći</a></p>
+                        {AboutUsArr.map((oneElement) =>
+                            <FooterColumn
+                                link={oneElement.link} title={oneElement.title} />
+                        )}
                     </div>
+
                     <div class="oneFooterBox">
-                        <h5>Kontakt</h5>
-                        <p><a href="#contactContainer">Skontaktuj się z nami</a></p>
-                        <p><a href="#contactContainer">FAQ</a></p>
+                        <h5>O nas</h5>
+                        {ContactArr.map((oneElement) =>
+                            <FooterColumn
+                                link={oneElement.link} title={oneElement.title} />
+                        )}
                     </div>
+
                 </div>
             </div>
             <div class="footerContact">
@@ -96,3 +251,4 @@ function Footer() {
 }
 
 export default Footer
+
