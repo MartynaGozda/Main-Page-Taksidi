@@ -99,6 +99,7 @@ var highlightsArr = [
 
 
 
+
 class HighlightsWrapper extends Component {
 
     constructor(props) {
@@ -109,11 +110,15 @@ class HighlightsWrapper extends Component {
         }
     }
 
+
+
     scroll(direction) {
         let far = $('.imageContainer').width() / 1 * direction;
         let pos = $('.imageContainer').scrollLeft() + far;
         $('.imageContainer').animate({ scrollLeft: pos }, 1000)
     }
+
+    
 
     handleAll = () => {
         this.setState({ tag: 'all' });
@@ -122,6 +127,7 @@ class HighlightsWrapper extends Component {
     componentDidUpdate() {
         console.log(this.state.tag)
     };
+    
 
     render() {
 
@@ -133,7 +139,7 @@ class HighlightsWrapper extends Component {
                         <p>Poniżej prezentujemy listę atrakcji, które są realizowane na naszych wyjazdach. Zaznaczamy, że szczegółową rozpiskę potwierdzonych atrakcji wyjazdowych każdy uczestnik otrzyma na około 5 dni przed swoim wyjazdem i będzie ona wgrana w jego Panel Klienta </p>
                     </div>
                     <div className='main' id="main">
-                        <div className='wrapper'>
+                        <div className='wrapper' >
                             <div className='blockLeft'></div>
                             <div className="prev" onClick={this.scroll.bind(null, -1)}>&#10094;</div>
                             <div className="imageContainer">

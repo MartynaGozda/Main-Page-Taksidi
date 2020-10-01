@@ -87,7 +87,7 @@ class MenuWrapper extends React.Component {
                 <div id="menuContainer">
                     <ul className="navItems">
                         {MenuArr.map((menuItem) =>
-                            <MenuEl name={menuItem.name} menu_link={menuItem.menu_link} className={menuItem.class} />
+                            <MenuEl name={menuItem.name} menu_link={menuItem.menu_link} class={menuItem.class} />
                         )}
                     </ul>
                 </div>

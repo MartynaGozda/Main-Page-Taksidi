@@ -5,22 +5,27 @@ import Destination from './Destination.js'
 
 var DestinationArr = [
     {
-        index: 1,
+        index: 2,
         image: "./img/francja.jpg",
         country_name: 'Francja',
-        number_of_offers: '3',
+        number_of_offers: 3,
         more_destinations: "Wyjazdy do Francji",
     },
 
     {
-        index: 2,
+        index: 1,
         image: './img/szwajcaria.jpg',
         country_name: 'Szwajcaria',
-        number_of_offers: '2',
+        number_of_offers: 2,
         more_destinations: "Wyjazdy do Szwajcarii",
     }
 
 ];
+
+DestinationArr.sort(function(a,b){
+    return parseInt(a.index)  - parseInt(b.index);
+   })
+
 
 function DestinationWrapper() {
     return (
@@ -31,8 +36,8 @@ function DestinationWrapper() {
                     <p className="mainText">TAKSIDI to zorganizowane wyjazdy narciarskie i snowboardowe dla młodych i aktywnych ludzi do renomowanych alpejskich ośrodków we Francji, Włoszech, Szwajcarii i Austrii. Nasze wyjazdy to połączenie dobrej zabawy na najlepszych stokach, imprez, warsztatów i mnóstwa dodatkowych atrakcji.</p>
                 </div>
                 <div className="destinationWrapper">
-                    {DestinationArr.map((oneCountry) =>
-                        <Destination text={oneCountry.text} image={oneCountry.image} country_name={oneCountry.country_name} number={oneCountry.number_of_offers} />
+                    {DestinationArr.map((oneCountry,index) =>
+                        <Destination key={index} text={oneCountry.text} image={oneCountry.image} country_name={oneCountry.country_name} number={oneCountry.number_of_offers} />
                     )}
                     <div className="oneDestination">
                         <div className="text">

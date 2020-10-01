@@ -6,7 +6,7 @@ class HamburgerEl extends React.Component {
     render() {
         return (
             <>
-            <li><a href={this.props.menu_link}>{this.props.name}</a></li>
+            <li><a href={this.props.menu_link}>{this.props.name}<i className={this.props.class}></i></a></li>
             </>
         );
     }
