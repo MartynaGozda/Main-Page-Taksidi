@@ -8,7 +8,7 @@ import HighlightsWrapper from "./HighlightsWrapper.js"
 import Newsletter from "./Newsletter.js"
 import Contact from "./Contact.js"
 import PartnersWrapper from "./PartnersWrapper.js"
-import Footer from "./Footer.js"
+// import Footer from "./Footer.js"
 
 function MainPage() {
     return (
@@ -21,7 +21,7 @@ function MainPage() {
             <Newsletter />
             <Contact />
             <PartnersWrapper />
-            <Footer /> 
+            {/* <Footer />  */}
         </div>
 
     );

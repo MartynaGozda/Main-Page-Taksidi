@@ -10,6 +10,7 @@ import video from "./video/verbier2.mp4";
 import coverImage from "./img/cover-taksidi.jpg"
 import coverImage2 from "./img/cover-taksidi-2.jpg"
 import logo from "./img/logo-taksidi.png"
+import { Link } from 'react-router-dom';
 
 
 

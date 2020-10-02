@@ -151,7 +151,7 @@ function Footer() {
         <div id="footerContainer">
             <div className="footerMenu">
                 <div className="top">
-                    <div className="imageLogo" ><img src={require('./img/logo-taksidi.png')} alt='logo' /></div>
+                    <div className="imageLogo" ><img src={require('./mainPage/img/logo-taksidi.png')} alt='logo' /></div>
                     <div className="socialMediaContainer">
                         <p>Śledź Nas!</p>
                         <div className="icons">
@@ -242,7 +242,7 @@ function Footer() {
                         <p>Polityka Prywatnosci</p>
                         <p className="copyRight">© 2020 Copyright Taksidi. Wykonanie: Kerris Group</p>
                     </div>
-                    <div className="logo"><img src={require("./img/fundusze.jpg")} alt="" /></div>
+                    <div className="logo"><img src={require("./mainPage/img/fundusze.jpg")} alt="" /></div>
                     <p className="copyRight2">© 2020 Copyright Taksidi. Wykonanie: Kerris Group</p>
                 </div>
             </div>

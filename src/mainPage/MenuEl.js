@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './MenuPage.scss';
+import './Menu.scss';
 import { Link } from "react-router-dom";
 
 class MenuEl extends React.Component {
