@@ -57,7 +57,8 @@
                     font-size: 13px;
                 }
 
-                p, a {
+                p,
+                a {
                     color: white;
                     font-family: sans-serif;
                     letter-spacing: 0.4px;
@@ -85,6 +86,7 @@
             width: 85%;
             height: 180px;
             padding-top: 20px;
+            padding-bottom: 20px;
 
             .oneContactBox {
                 width: 150px;
@@ -113,12 +115,13 @@
 
             .text {
                 display: flex;
-                justify-content: space-around;
+                justify-content: space-between;
                 align-items: center;
-                width: 80%;
+                width: 60%;
                 p {
                     color: #636c72;
                     margin-right: 10px;
+                    font-size: 13px;
                 }
             }
 
@@ -157,11 +160,11 @@
             .container {
                 max-width: 90vw;
             }
-        
+
             .container > div > div:nth-child(1) > h5 {
                 margin-top: 0;
             }
-        
+
             .wrapper {
                 display: flex;
                 justify-content: center;
@@ -176,14 +179,18 @@
                 flex-wrap: wrap;
                 justify-content: center;
                 margin-top: 10px;
-        
+
+                .text {
+                    width: 80%;
+                }
+
                 .logo img {
                     width: 100%;
                 }
                 .copyRight {
                     display: none;
                 }
-        
+
                 .copyRight2 {
                     display: block;
                     color: #636c72;
@@ -194,4 +201,3 @@
         }
     }
 }
-

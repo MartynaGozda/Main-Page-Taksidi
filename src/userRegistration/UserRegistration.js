@@ -1,6 +1,5 @@
 
 import React, { useEffect } from 'react';
-// import MenuPage from './MenuPage.js'
 import Reset from './Reset.js'
 import Registration from './Registration.js'
 import Login from './Login.js'
@@ -8,7 +7,6 @@ import {
     BrowserRouter as Router,
     Route,
     Switch,
-    Link,
     useLocation,
     withRouter
 } from "react-router-dom";
