@@ -64,8 +64,8 @@ class Registration extends React.Component {
 
                                 <div className="agree">
                                     <div><input type="checkbox" value="checkbox"></input>
-                                        <p className="textSmall">Zapoznałem się z <Link to={politykaPrywatnosci} target="_blank">Polityką Prywatności </Link>
-       i akceptuję <Link to={regulaminTaksidi} taret="_blank">Regulamin Strony</Link></p></div>
+                                        <p className="textSmall">Zapoznałem się z <a href={politykaPrywatnosci} target="_blank">Polityką Prywatności </a>
+       i akceptuję <a href={regulaminTaksidi} target="_blank">Regulamin Strony</a></p></div>
                                     <div><input type="checkbox" value="checkbox"></input>
                                         <p className="textSmall">Wyrażam zgodę na otrzymywanie od Taksidi Sp. z o.o. z siedzibą w Górze drogą elektroniczną informacji handlowej (newsletter) w celu przedstawienia mi ofert organizowanych wyjazdach oraz eventach i promocjach.</p></div>
                                 </div>
