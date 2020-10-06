@@ -48,27 +48,27 @@ p.infoText {
 
 @font-face {
   font-family: SpaceGrotesk;
-  src: url(./otf/SpaceGrotesk-Regular.otf);
+  src: url(./fonts/SpaceGrotesk-Regular.otf);
 }
 
 @font-face {
   font-family: SpaceGrotesk-Medium;
-  src: url(./otf/SpaceGrotesk-Medium.otf);
+  src: url(./fonts/SpaceGrotesk-Medium.otf);
 }
 
 @font-face {
   font-family: SpaceGrotesk-Bold;
-  src: url(./otf/SpaceGrotesk-Medium.otf);
+  src: url(./fonts/SpaceGrotesk-Medium.otf);
 }
 
 @font-face {
   font-family: SpaceGrotesk-SemiBold;
-  src: url(./otf/SpaceGrotesk-SemiBold.otf);
+  src: url(./fonts/SpaceGrotesk-SemiBold.otf);
 }
 
 @font-face {
   font-family: SpaceGrotesk-Light;
-  src: url(./otf/SpaceGrotesk-Light.otf);
+  src: url(./fonts/SpaceGrotesk-Light.otf);
 }
 
 html {

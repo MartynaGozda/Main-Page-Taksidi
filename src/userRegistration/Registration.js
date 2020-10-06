@@ -2,6 +2,9 @@
 import React from 'react';
 import './Registration.scss';
 import { Link } from 'react-router-dom';
+import politykaPrywatnosci from './documents/polityka-prywatnosci.pdf';
+import regulaminTaksidi from './documents/regulamin-taksidi.pdf';
+
 
 class PasswordField extends React.Component {
     state = {
@@ -14,8 +17,8 @@ class PasswordField extends React.Component {
 
     render() {
         return (
-            <div className="passwordBox"><input type={this.state.type}  name="password" id="password" placeholder="Wpisz hasło"></input>
-            <span  onClick={this.handleClick}>{this.state.type === 'password' ? <i class="fas fa-eye-slash"></i> : <i class="fas fa-eye"></i>}</span></div>
+            <div className="passwordBox"><input type={this.state.type} name="password" id="password" placeholder="Wpisz hasło"></input>
+                <span onClick={this.handleClick}>{this.state.type === 'password' ? <i class="fas fa-eye-slash"></i> : <i class="fas fa-eye"></i>}</span></div>
         )
     }
 }
@@ -40,17 +43,20 @@ class ShowPassword extends React.Component {
 export { ShowPassword }
 
 
+
 class Registration extends React.Component {
+
+
     render() {
         return (
+
             <div id="registration">
-                
+
                 <div className="container">
                     <div className="box">
                         <h3>Zarejestruj się</h3>
                         <div className="form">
                             <form action="dodaj.php" method="POST">
-
                                 <p>E-mail</p>
                                 <input type="email" placeholder="Twój adres email"></input>
                                 <p>Hasło</p>
@@ -58,7 +64,8 @@ class Registration extends React.Component {
 
                                 <div className="agree">
                                     <div><input type="checkbox" value="checkbox"></input>
-                                        <p className="textSmall">Zapoznałem się z <a href="">Polityką Prywatności</a> i akceptuję <a href="">Regulamin Strony</a></p></div>
+                                        <p className="textSmall">Zapoznałem się z <Link to={politykaPrywatnosci} target="_blank">Polityką Prywatności </Link>
+       i akceptuję <Link to={regulaminTaksidi} taret="_blank">Regulamin Strony</Link></p></div>
                                     <div><input type="checkbox" value="checkbox"></input>
                                         <p className="textSmall">Wyrażam zgodę na otrzymywanie od Taksidi Sp. z o.o. z siedzibą w Górze drogą elektroniczną informacji handlowej (newsletter) w celu przedstawienia mi ofert organizowanych wyjazdach oraz eventach i promocjach.</p></div>
                                 </div>

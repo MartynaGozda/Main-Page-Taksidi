@@ -17,7 +17,7 @@ class Reset extends React.Component {
                                     <p>E-mail</p>
                                     <input type="email" placeholder="Twój adres email"></input>
                                     <div className="btnBox"><button type="submit" className="btn">Resetuj hasło</button></div>
-                                    <div className="linkPassword"><a href="" target="_blank" rel="noopener noreferrer">Utwórz nowe konto<i className="arrow"></i></a></div>
+                                    <div className="linkPassword"><Link to="/Rejestracja" >Utwórz nowe konto<i className="arrow"></i></Link></div>
                                 </form>
                             </div>
                         </div>
